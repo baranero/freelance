@@ -1,62 +1,62 @@
 {
     "home": {
-        "welcomeFirst": "I will put out any",
-        "welcomeSecond": "fire ",
-        "welcomeThird": "in the code",
-        "description": "Beginner programmer with great ambitions."
+        "welcomeFirst": "Strony i sklepy internetowe, ",
+        "welcomeSecond": "aplikacje webowe, które",
+        "welcomeThird": "zarabiają",
+        "description": "Specjalizuję się w tworzeniu nowoczesnych stron internetowych, sklepów online, aplikacji webowych oraz pozycjonowaniu SEO. Moje rozwiązania łączą kreatywność z funkcjonalnością, zapewniając wyjątkowe wrażenia dla Twojej witryny. Moje działania zwiększą widoczność Twojej firmy w sieci."
     },
     "navbar": {
-        "home": "home",
-        "about": "about",
-        "services": "services",
-        "work": "work",
-        "contact": "contact"
+        "home": "strona główna",
+        "about": "o mnie",
+        "services": "usługi",
+        "work": "realizacje",
+        "contact": "kontakt"
     },
     "about": {
-        "titleFirst": " A little bit ",
-        "titleSecond": "about me",
-        "descriptionFirst": "A year ago I started learning programming. I chose web development.",
-        "descriptionSecond": "As a summary of my skills so far, I created this portfolio website and my own FireApp. I was inspired to write it by the need to digitize some processes in my current job.",
-        "descriptionThird": "Getting more involved in the structure of software development, I noticed how important automation is. My attention has recently focused on expanding knowledge in the field of CI/CD. I also did not pass by cloud services indifferently. Wanting to test their operation, I created a simple REST API on AWS.",
-        "descriptionFourth": "My professional experience means that I get along very well with my coworkers. In addition, I am excellent at meeting deadlines, as well as conducting talks with investors. Collecting requirements from them, I implemented them in the project to finally hand over the finished product to customers.",
-        "skills": "Skills",
-        "experience": "Experience",
-        "firefighter": "Firefighter",
-        "fireStage": "2019 - present",
-        "designer": "Fire Safety Systems Designer",
-        "designerStage": "2019 - present",
-        "github": "My own GitHub",
-        "githubStage": "2022 - present"
+        "titleFirst": " Trochę ",
+        "titleSecond": "o mnie",
+        "descriptionFirst": "Jestem specjalistą w tworzeniu profesjonalnych i nowoczesnych stron internetowych, sklepów online oraz aplikacji webowych. Mój wachlarz usług obejmuje również skuteczne pozycjonowanie SEO, aby Twoja widoczność w sieci się zwiększyła.",
+        "descriptionSecond": "Dążę do perfekcji poprzez zoptymalizowanie każdego projektu, gwarantując, że Twoja witryna nie tylko prezentuje się doskonale i nowocześnie, ale także działa wyjątkowo sprawnie. Moje rozwiązania są oparte na najnowszych trendach i technologiach, zapewniając Ci przewagę w dzisiejszym dynamicznym świecie online.",
+        "descriptionThird": "To, co naprawdę mnie napędza, to satysfakcja klienta. Tworząc rozwiązania dostosowane do Twoich potrzeb, zawsze dążę do tego, abyś był całkowicie zadowolony z efektów końcowych. Nasza współpraca nie kończy się w momencie ukończenia produktu. Gwarantuję merytoryczne wsparcie w obsłudze oraz pomoc w przypadku problemów.",
+        "descriptionFourth": "Jeśli szukasz profesjonalizmu, nowoczesności, skuteczności i indywidualnego podejścia - skontaktuj się ze mną.",
+        "skills": "Współpraca ze mną",
+        "experience": "Doświadczenie",
+        "firefighter": "Strażak",
+        "fireStage": "2019 - obecnie",
+        "designer": "Projektant systemów przeciwpożarowych",
+        "designerStage": "2019 - obecnie",
+        "github": "Mój własny GitHub",
+        "githubStage": "2022 - obecnie"
     },
     "services": {
-        "title": "My services",
-        "description": "I create websites and web applications. I guarantee you full responsiveness, friendly interface and optimization for SEO. If you need a website that will attract your customers, get in touch!"
+        "title": "Moje usługi",
+        "description": "Tworzę strony internetowe i aplikacje webowe. Gwarantuję Ci pełną responsywność, przyjazny interfejs oraz optymalizację pod SEO. Jeśli potrzebujesz strony internetowej, która przyciągnie Twoich klientów, odezwij się!"
     },
     "servicesSlider": {
         "design": "Design",
-        "designDescription": "Intuitive and stylish interfaces that make your website user-friendly.",
-        "development": "Development",
-        "developmentDescription": "Usable websites and fully functional web applications to meet your requirements.",
+        "designDescription": "Intuicyjne i stylowe interfejsy, które sprawiają, że Twoja strona będzie przyjazna dla użytkownika.",
+        "development": "Rozwój aplikacji",
+        "developmentDescription": "Użytkowe strony i w pełni funkcjonalne aplikacje webowe, aby sprostać Twoim wymaganiom.",
         "copywriting": "Copywriting",
-        "copywritingDescription": "SEO-friendly content tailored to your needs and requirements.",
+        "copywritingDescription": "Treści przyjazne dla SEO, dostosowane do Twoich potrzeb i wymagań.",
         "seo": "SEO",
-        "seoDescription": "Improving visibility and organic traffic through strategic optimization and keyword research."
+        "seoDescription": "Poprawa widoczności i ruchu organicznego poprzez optymalizację strategiczną i badanie słów kluczowych."
     },
     "works": {
-        "title": "My works",
-        "description": "Projects that were created by me as a summary of the learning process."
+        "title": "Moje realizacje",
+        "description": "Projekty, które zostały stworzone przeze mnie jako podsumowanie procesu uczenia się."
     },
     "worksSlider": {
-        "live": "LIVE",
-        "project": "PROJECT"
+        "live": "NA",
+        "project": "ŻYWO"
     },
     "contact": {
-        "titleFirst": "Let's ",
-        "titleSecond": "connect.",
-        "name": "Name",
+        "titleFirst": "Skontaktuj się ",
+        "titleSecond": "ze mną.",
+        "name": "Imię i nazwisko",
         "email": "Email",
-        "subject": "Subject",
-        "message": "Message",
-        "button": "Let's talk"
+        "subject": "Temat",
+        "message": "Wiadomość",
+        "button": "Porozmawiajmy"
     }
 }

@@ -13,11 +13,11 @@ const Work = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="h-full bg-primary/30 py-24 lg:flex xl:flex lg:items-center xl:items-center overflow-y-scroll xl:overflow-hidden">
+    <div className="h-full bg-primary/30 pt-24 pb-12 lg:flex xl:flex lg:items-center xl:items-center overflow-y-scroll xl:overflow-hidden">
       <div className="hidden lg:flex xl:flex">
         <Circles />
       </div>
-      <div className="container mx-auto mt-10">
+      <div className="container h-full mx-auto mt-10">
         <div className="flex flex-col xl:flex-row gap-x-8">
           <div className="text-center flex xl:w-[30vw] flex-col lg:text-left mb-4 xl:mb-0">
             <motion.h2
@@ -29,15 +29,7 @@ const Work = () => {
             >
               {t("works.title")} <span className="text-accent">.</span>
             </motion.h2>
-            <motion.p
-              variants={fadeIn("up", 0.4)}
-              initial="hidden"
-              animate="show"
-              exit="hidden"
-              className="mb-4 max-w-[400px] mx-auto text-justify lg:mx-0"
-            >
-              {t("works.description")}
-            </motion.p>
+
           </div>
 
           <motion.div

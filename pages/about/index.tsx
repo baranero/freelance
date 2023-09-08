@@ -21,7 +21,7 @@ type SkillSection = {
   title: string;
   info: {
     title: string;
-    icons: { icon: IconType; key: string }[];
+    icons: string;
   }[];
 };
 
@@ -55,46 +55,24 @@ const About = () => {
       title: t("about.skills"),
       info: [
         {
-          title: "Frontend",
-          icons: [
-            { icon: FaHtml5, key: "html" },
-            { icon: FaCss3, key: "css" },
-            { icon: SiTypescript, key: "ts" },
-            { icon: FaReact, key: "react" },
-            { icon: SiRedux, key: "redux" },
-            { icon: SiNextdotjs, key: "next" },
-          ],
+          title: "Strony internetowe",
+          icons: ""
         },
         {
-          title: "Backend",
-          icons: [
-            { icon: SiNodedotjs, key: "node" },
-            { icon: SiAmazonaws, key: "aws" },
-            { icon: SiPostgresql, key: "postgre" },
-            { icon: SiMongodb, key: "mongo" },
-            { icon: SiPrisma, key: "prisma" },
-          ],
+          title: "Sklepy internetowe",
+          icons: "",
+        },
+        {
+          title: "Aplikacje webowe",
+          icons: "",
         },
         {
           title: "UI/UX Design",
-          icons: [{ icon: FaFigma, key: "figma" }],
-        },
-      ],
-    },
-    {
-      title: t("about.experience"),
-      info: [
-        {
-          title: t("about.firefighter"),
-          stage: t("about.fireStage"),
+          icons: "",
         },
         {
-          title: t("about.designer"),
-          stage: t("about.designerStage"),
-        },
-        {
-          title: t("about.github"),
-          stage: t("about.githubStage"),
+          title: "SEO",
+          icons: "",
         },
       ],
     },
@@ -113,9 +91,8 @@ const About = () => {
         transition={{ duration: 1, ease: "easeInOut" }}
         className="hidden xl:flex w-full h-full max-w-[437px] max-h-[437px] -bottom-2 absolute lg:right-[8%]"
       >
-        <AvatarRam />
       </motion.div>
-      <div className="container mx-auto h-full flex flex-col items-center xl:flex-row  mt-10 gap-x-6">
+      <div className="w-[80vw] mx-auto h-full flex flex-col items-center xl:flex-row  mt-10 gap-x-6">
         <div className="flex-1 flex flex-col justify-center">
           <motion.h2
             variants={fadeIn("right", 0.2)}
@@ -178,9 +155,9 @@ const About = () => {
                   key={itemIndex}
                   className={`${
                     index === itemIndex &&
-                    "text-accent after:w-[100%] after:bg-accent after:transition-all after:duration-300"
+                    " after:w-[100%]  after:transition-all after:duration-300"
                   } cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px]  after:absolute after:-bottom-1 after:left-0`}
-                  onClick={() => setIndex(itemIndex)}
+                  
                 >
                   {item.title}
                 </div>
@@ -197,7 +174,7 @@ const About = () => {
                   >
                     <div className="font-light mb-2 md:mb-0">{item.title}</div>
                     <div className="hidden md:flex">-</div>
-                    <div className="">{item.stage}</div>
+                    <div className="">{}</div>
                   </div>
                 );
               }
@@ -208,17 +185,7 @@ const About = () => {
                   key={itemIndex}
                 >
                   <div className="font-light mb-2 md:mb-0">{item.title}</div>
-                  <div className="hidden md:flex">-</div>
-                  <div className="flex gap-x-4">
-                    {item.icons.map((iconData, iconIndex) => {
-                      const Icon = iconData.icon;
-                      return (
-                        <div className="text-2xl text-white" key={iconData.key}>
-                          {<Icon />}
-                        </div>
-                      );
-                    })}
-                  </div>
+                  
                 </div>
               );
             })}
