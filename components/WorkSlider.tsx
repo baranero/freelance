@@ -55,7 +55,7 @@ const WorkSlider = () => {
         clickable: true,
       }}
       modules={[Pagination]}
-      className="sm:h-[480px]"
+      className="sm:h-[480px] mb-24"
     >
       {workSlides.slides.map((slide, index) => {
         return (
