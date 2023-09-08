@@ -44,6 +44,7 @@ import { IconType } from "react-icons/lib";
 import { GetStaticProps } from "next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
+import Collapsible from "../../components/Collapsible";
 
 const About = () => {
   const [index, setIndex] = useState(0);
@@ -185,6 +186,9 @@ const About = () => {
                   key={itemIndex}
                 >
                   <div className="font-light mb-2 md:mb-0">{item.title}</div>
+                  <Collapsible title="Tworzenie stron">
+                    <p>Tworzę strony i jest w sumie git</p>
+                  </Collapsible>
                   
                 </div>
               );
