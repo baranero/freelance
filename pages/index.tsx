@@ -19,13 +19,13 @@ const Home = () => {
   return (
     <div className="bg-primary/60 h-full">
       <div className="w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
-        <div className="text-center flex flex-col justify-center xl:pt-40 xl:text-left h-full max-w-[80vw] mx-auto">
+        <div className="text-center flex flex-col justify-center xl:pt-20 xl:text-left h-full max-w-[80vw] mx-auto">
           <motion.h1
             variants={fadeIn("down", 0.2)}
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h1 mt-10 z-10"
+            className="h1 z-10 mb-6"
           >
             {t("home.welcomeFirst")} <br />
             {t("home.welcomeSecond")}<br/>
@@ -36,7 +36,7 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-sm z-10 xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16 text-justify"
+            className="max-w-sm z-10 xl:max-w-xl mx-auto xl:mx-0 mb-6 xl:mb-8 text-justify"
           >
             {t("home.description")}
           </motion.p>
@@ -54,8 +54,8 @@ const Home = () => {
           </motion.div>
         </div>
       </div>
-      <div className="w-[1200px] h-full absolute right-0 bottom-0">
-        <div className="bg-none xl:opacity-70 xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute translate-z-0"></div>
+      <div className="w-[1200px] h-full fixed right-0 bottom-0">
+        <div className="bg-none xl:opacity-30 xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute translate-z-0"></div>
         <ParticleContainer />
         <motion.div
           variants={fadeIn("up", 0.5)}

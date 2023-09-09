@@ -18,7 +18,7 @@ interface LayoutProps {
 const Layout = ({ children }: LayoutProps) => {
   return (
     <div
-      className={`page bg-site text-white bg-cover bg-no-repea ${sora.variable} font-sora relative`}
+      className={`page bg-site text-white bg-cover bg-no-repea ${sora.variable} font-sora`}
     >
       <Nav />
       <Header />
