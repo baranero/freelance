@@ -1,12 +1,14 @@
 import React, { ReactNode, useRef, useState } from "react";
 import PropTypes from "prop-types";
+import { motion } from "framer-motion";
 
 interface CollapsibleProps {
     title: string;
     children: ReactNode;
+    content: string
 }
 
-const Collapsible = ({ title, children }: CollapsibleProps) => {
+const Collapsible = ({ title, children, content }: CollapsibleProps) => {
   const [
     isExpanded,
     setIsExpanded
@@ -15,12 +17,17 @@ const Collapsible = ({ title, children }: CollapsibleProps) => {
   const ref = useRef<HTMLDivElement | null>(null);
 
   const [height, setHeight] = useState<number | undefined>(undefined);
-  console.log(ref);
-  console.log(height);
-  console.log(isExpanded);
   
-  
-  
+ 
+  const menuVariants = {
+    open: {
+      opacity: 1,
+    },
+    closed: {
+      opacity: 0,
+    },
+  }
+
   
 
   const handleToggle = (event: React.MouseEvent) => {
@@ -29,33 +36,30 @@ const Collapsible = ({ title, children }: CollapsibleProps) => {
     setHeight(ref.current?.clientHeight);
   };
 
-  const classes = `list-group-item ${
-    isExpanded ? "is-expanded" : null
-  }`;
   const currentHeight = isExpanded ? height : 0;
+  const opacity = isExpanded ? 1 : 0
 
-  console.log(currentHeight);
   return (
-    <div
-      className={classes}
-      onClick={handleToggle}
+    <div className="overflow-visible"
     >
-      <div className="hover:cursor-pointer hover:text-white transition-all duration-200 ease-in">
-        <h2 className="">{title}</h2>
+      <div onClick={handleToggle} className="text-xl hover:cursor-pointer hover:text-white transition-all duration-200 ease-in">
+        <h2 className="relative z-20">{title}</h2>
       </div>
-      <div
-        className={`${isExpanded ? 'block' : 'hidden'} h-[${currentHeight + "px"}]`}
+      <motion.div variants={menuVariants} animate={isExpanded ? 'open' : 'closed'} transition={{ duration: 0.2, ease: "easeInOut" }}
+      style={{ height: currentHeight + "px" }}
+        className="transition-height duration-300 ease-in-out mt-2"
       >
-        <div className="" ref={ref}>
-          {children}
+        <div className="backdrop-blur-lg bg-gray-500/10 p-6" ref={ref}>
+          {content}
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };
 
 Collapsible.propTypes = {
-  title: PropTypes.string
+  title: PropTypes.string,
+  content: PropTypes.string
 };
 
 export default Collapsible;

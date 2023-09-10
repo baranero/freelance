@@ -13,8 +13,8 @@ const Services = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="h-full bg-primary/30 py-24 lg:flex xl:flex lg:items-center xl:items-center overflow-y-scroll md:overflow-hidden lg:overflow-hidden xl:overflow-hidden">
-      <div className="hidden lg:flex xl:flex">
+    <div className="h-[100vh] bg-primary/30 py-24 lg:flex xl:flex lg:items-center xl:items-center overflow-y-scroll md:overflow-hidden lg:overflow-hidden xl:overflow-hidden">
+      <div className="hidden bottom-0 right-[18px] lg:fixed xl:fixed lg:flex xl:flex">
         <Circles />
       </div>
       <div className="container mx-auto mt-10">
@@ -51,7 +51,9 @@ const Services = () => {
           </motion.div>
         </div>
       </div>
-      <Bulb />
+      <div className="hidden bottom-0 left-0 lg:fixed xl:fixed lg:flex xl:flex">
+        <Bulb />
+      </div>
     </div>
   );
 };

@@ -17,7 +17,7 @@ import {
   SiPrisma,
 } from "react-icons/si";
 
-type SkillSection = {
+type AboutDataItem = {
   title: string;
   info: {
     title: string;
@@ -25,15 +25,6 @@ type SkillSection = {
   }[];
 };
 
-type ExperienceSection = {
-  title: string;
-  info: {
-    title: string;
-    stage: string;
-  }[];
-};
-
-type AboutDataItem = SkillSection | ExperienceSection;
 
 import AvatarRam from "../../components/AvatarRam";
 import Circles from "../../components/Circles";
@@ -51,37 +42,39 @@ const About = () => {
 
   const { t } = useTranslation();
 
+  
+
   const aboutData: AboutDataItem[] = [
     {
       title: t("about.skills"),
       info: [
         {
           title: "Strony internetowe",
-          icons: ""
+          icons: "Tworzenie stron internetowych z wykorzystaniem WordPress i innych zaawansowanych systemów zarządzania treścią. Moja oferta to profesjonalne projekty, łatwa obsługa, oraz optymalizacja SEO dla Twojej witryny. Wyróżnij się online z moją pomocą!"
         },
         {
           title: "Sklepy internetowe",
-          icons: "",
+          icons: "Tworzę sklepy internetowe z użyciem WooCommerce, najlepszego narzędzia e-commerce w WordPress. Moja oferta to perfekcyjne rozwiązania dla Twojego biznesu online. Zyskaj przewagę konkurencyjną dzięki moim profesjonalnym sklepom internetowym i zapewnij swoim klientom niezapomniane zakupy online.",
         },
         {
           title: "Aplikacje webowe",
-          icons: "",
+          icons: "Jako specjalista w tworzeniu aplikacji webowych, oferuję innowacyjne rozwiązania dopasowane do Twoich potrzeb. Moje aplikacje webowe łączą wydajność, bezpieczeństwo i responsywność, gwarantując użytkownikom niezrównane doświadczenia online. Wybierz mnie, aby przekształcić swoje pomysły w działające aplikacje webowe!",
         },
         {
           title: "UI/UX Design",
-          icons: "",
+          icons: "Zapewniam kompleksowe usługi UI/UX Design, które podnoszą jakość interakcji użytkowników z Twoją stroną lub aplikacją. Moje projekty łączą estetykę, intuicyjność i funkcjonalność, co przekłada się na zwiększoną konwersję i satysfakcję klientów. Optymalizuj swoją obecność online z profesjonalnym designem UI/UX!",
         },
         {
           title: "SEO",
-          icons: "",
+          icons: "Optymalizacja stron internetowych to klucz do osiągnięcia wyższej widoczności w wynikach wyszukiwania. Specjalizuję się w skutecznych strategiach SEO, pomagając Twojej witrynie awansować na wyższe pozycje. Zwiększ ruch organiczny i zdobądź nowych klientów dzięki moim usługom SEO.",
         },
       ],
     },
   ];
 
   return (
-    <div className="h-full bg-primary/30 py-24 lg:flex xl:flex lg:items-center xl:items-center overflow-y-scroll md:overflow-hidden lg:overflow-hidden xl:overflow-hidden text-center xl:text-left">
-      <div className="hidden lg:flex xl:flex">
+    <div className="bg-primary/30 pt-24 lg:flex xl:flex lg:items-center xl:items-center overflow-y-scroll md:overflow-hidden lg:overflow-hidden xl:overflow-hidden text-center xl:text-left">
+      <div className="hidden bottom-0 right-[18px] lg:fixed xl:fixed lg:flex xl:flex">
         <Circles />
       </div>
       <motion.div
@@ -93,7 +86,7 @@ const About = () => {
         className="hidden xl:flex w-full h-full max-w-[437px] max-h-[437px] -bottom-2 absolute lg:right-[8%]"
       >
       </motion.div>
-      <div className="w-[80vw] mx-auto h-full flex flex-col items-center xl:flex-row  mt-10 gap-x-6">
+      <div className="w-[80vw] mx-auto h-full flex flex-col items-start xl:flex-row  mt-10 gap-x-6">
         <div className="flex-1 flex flex-col justify-center">
           <motion.h2
             variants={fadeIn("right", 0.2)}
@@ -147,47 +140,18 @@ const About = () => {
           initial="hidden"
           animate="show"
           exit="hidden"
-          className="flex flex-col w-full xl:max-w-[48%] h-[480px]"
+          className="flex flex-col h-max w-full mt-12 xl:max-w-[48%]"
         >
-          <div className="flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4">
-            {aboutData.map((item, itemIndex) => {
-              return (
-                <div
-                  key={itemIndex}
-                  className={`${
-                    index === itemIndex &&
-                    " after:w-[100%]  after:transition-all after:duration-300"
-                  } cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px]  after:absolute after:-bottom-1 after:left-0`}
-                  
-                >
-                  {item.title}
-                </div>
-              );
-            })}
-          </div>
           <div className="py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start pb-32">
             {aboutData[index].info.map((item, itemIndex) => {
-              if ("stage" in item) {
-                return (
-                  <div
-                    className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60"
-                    key={itemIndex}
-                  >
-                    <div className="font-light mb-2 md:mb-0">{item.title}</div>
-                    <div className="hidden md:flex">-</div>
-                    <div className="">{}</div>
-                  </div>
-                );
-              }
-
+              
               return (
                 <div
                   className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60"
                   key={itemIndex}
                 >
-                  <div className="font-light mb-2 md:mb-0">{item.title}</div>
-                  <Collapsible title="Tworzenie stron">
-                    <p>Tworzę strony i jest w sumie git</p>
+                  
+                  <Collapsible content={item.icons} title={item.title}>
                   </Collapsible>
                   
                 </div>

@@ -17,8 +17,8 @@ const Home = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="bg-primary/60 h-full">
-      <div className="w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
+    <div className="bg-primary/60">
+      <div className="w-full h-[100vh] bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
         <div className="text-center flex flex-col justify-center xl:pt-20 xl:text-left h-full max-w-[80vw] mx-auto">
           <motion.h1
             variants={fadeIn("down", 0.2)}
@@ -55,7 +55,7 @@ const Home = () => {
         </div>
       </div>
       <div className="w-[1200px] h-full fixed right-0 bottom-0">
-        <div className="bg-none xl:opacity-30 xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute translate-z-0"></div>
+        <div className="bg-none opacity-20 xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute translate-z-0"></div>
         <ParticleContainer />
         <motion.div
           variants={fadeIn("up", 0.5)}

@@ -18,11 +18,11 @@ interface LayoutProps {
 const Layout = ({ children }: LayoutProps) => {
   return (
     <div
-      className={`page bg-site text-white bg-cover bg-no-repea ${sora.variable} font-sora`}
+      className={`bg-site page h-[100vh] overflow-y-scroll fixed text-white bg-cover bg-no-repea ${sora.variable} font-sora h-max`}
     >
       <Nav />
       <Header />
-      <div className="hidden md:block lg:block xl:block">
+      <div className="hidden  md:block lg:block xl:block">
         <TopLeftImg />
       </div>
       {children}

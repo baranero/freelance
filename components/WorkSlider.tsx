@@ -9,20 +9,21 @@ const workSlides = {
           title: "Beauty Salon",
           path: "/beauty-salon.png",
           url: "http://wrobelagnieszka.pl/",
-          description: "Strona internetowa dla salonu kosmetycznego. Responsywna, zoptymalizowana pod SEO. Oparta na CMS Wordpress."
-        },
-        {
-          title: "FireApp",
-          path: "/fireapp.png",
-          url: "https://fd-app-eight.vercel.app/",
-          description: "Aplikacja webowa służącą do zarządzania dniami urlopowymi i nadgodzinami. Dane są przechowywane w bazie danych. Administrator ma dostęp do ich modyfikacji z poziomu aplikacji."
+          description: "Strona internetowa stworzona dla salonu kosmetycznego. Responsywna, zoptymalizowana pod SEO. Zmiany podstron następują bez przeładowania całej strony. Oparta na CMS Wordpress."
         },
         {
           title: "Sklep rowerowy",
           path: "/rowerove.png",
           url: "http://rowerove.pl/",
-          description: "Sklep internetowy oparty na WooCommerce. W pełni responsywny. Zoptymalizowany pod SEO. W pełni funkcjonalny. Posiada katalog produktów, filtrowanie, sortowanie, obsługę płatności, wysyłki."
+          description: "Sklep internetowy oparty na WooCommerce. Responsywny i zoptymalizowany pod SEO. Posiada katalog produktów, filtrowanie, sortowanie, obsługę płatności, wysyłki."
         },
+        {
+          title: "FireApp",
+          path: "/fireapp.png",
+          url: "https://fd-app-eight.vercel.app/",
+          description: "Aplikacja służącą do zarządzania urlopami i nadgodzinami. Dane są przechowywane w bazie danych. Administrator ma dostęp do ich modyfikacji z poziomu aplikacji."
+        },
+
       ],
       
     },
@@ -55,7 +56,7 @@ const WorkSlider = () => {
         clickable: true,
       }}
       modules={[Pagination]}
-      className="sm:h-[480px] mb-24"
+      className="sm:h-[480px]"
     >
       {workSlides.slides.map((slide, index) => {
         return (
@@ -90,7 +91,7 @@ const WorkSlider = () => {
          
                     </div>
                     <div>
-                        <p className="text-justify mt-4 mx-4">{image.description}</p>
+                        <p className="text-justify backdrop-blur-lg bg-gray-500/10 p-6">{image.description}</p>
                       </div>
                   </div>
                 );

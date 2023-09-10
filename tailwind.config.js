@@ -21,6 +21,9 @@ module.exports = {
       xl: '1200px',
     },
     extend: {
+      transitionProperty: {
+        'height': 'height'
+      },
       colors: {
         primary: '#111',
         secondary: '#393A47',
