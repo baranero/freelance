@@ -73,7 +73,7 @@ const About = () => {
   ];
 
   return (
-    <div className="bg-primary/30 pt-24 lg:flex xl:flex lg:items-center xl:items-center overflow-y-scroll md:overflow-hidden lg:overflow-hidden xl:overflow-hidden text-center xl:text-left">
+    <div className="bg-primary/30 h-[100vh] pt-24 lg:flex xl:flex lg:items-center xl:items-center overflow-y-scroll md:overflow-hidden lg:overflow-hidden xl:overflow-hidden text-center xl:text-left">
       <div className="hidden bottom-0 right-[18px] lg:fixed xl:fixed lg:flex xl:flex">
         <Circles />
       </div>
@@ -83,10 +83,10 @@ const About = () => {
         animate="show"
         exit="hidden"
         transition={{ duration: 1, ease: "easeInOut" }}
-        className="hidden xl:flex w-full h-full max-w-[437px] max-h-[437px] -bottom-2 absolute lg:right-[8%]"
+        className="hidden xl:flex w-full h-max max-w-[437px] max-h-[437px] -bottom-2 absolute lg:right-[8%]"
       >
       </motion.div>
-      <div className="w-[80vw] mx-auto h-full flex flex-col items-start xl:flex-row  mt-10 gap-x-6">
+      <div className="xl:w-[80vw] mx-auto h-max flex flex-col items-start xl:flex-row  mt-10 gap-x-6">
         <div className="flex-1 flex flex-col justify-center">
           <motion.h2
             variants={fadeIn("right", 0.2)}
@@ -103,7 +103,7 @@ const About = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-[550px] xl:text-justify mx-auto xl:mx-0 mb-6 xl:mb-2 px-2 xl:px-0"
+            className="max-w-[550px] xl:text-justify mx-auto xl:mx-0 mb-6 xl:mb-2 px-4 xl:px-0"
           >
             {t("about.descriptionFirst")}
           </motion.p>
@@ -112,7 +112,7 @@ const About = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-[550px] xl:text-justify mx-auto xl:mx-0 mb-6 xl:mb-2 px-2 xl:px-0"
+            className="max-w-[550px] xl:text-justify mx-auto xl:mx-0 mb-6 xl:mb-2 px-4 xl:px-0"
           >
             {t("about.descriptionSecond")}
           </motion.p>
@@ -121,7 +121,7 @@ const About = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-[550px] xl:text-justify mx-auto xl:mx-0 mb-6 xl:mb-2 px-2 xl:px-0"
+            className="max-w-[550px] xl:text-justify mx-auto xl:mx-0 mb-6 xl:mb-2 px-4 xl:px-0"
           >
             {t("about.descriptionThird")}
           </motion.p>
@@ -130,7 +130,7 @@ const About = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-[550px] xl:text-justify mx-auto xl:mx-0 mb-6 xl:mb-2 px-2 xl:px-0"
+            className="max-w-[550px] xl:text-justify mx-auto xl:mx-0 mb-6 xl:mb-2 px-4 xl:px-0"
           >
             {t("about.descriptionFourth")}
           </motion.p>

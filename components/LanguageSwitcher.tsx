@@ -17,7 +17,7 @@ export default function LocaleSwitcher() {
   };
 
   return (
-    <div className="flex h-[42px] w-max items-center gap-x-5 bg-white/10 backdrop-blur-sm py-2 px-3 translate-x-8 rounded-full">
+    <div className="flex h-[42px] w-max items-center gap-x-5 bg-white/10 backdrop-blur-sm py-2 px-3 xl:translate-x-8 rounded-full">
       {locales
         ?.slice(1)
         .reverse()
