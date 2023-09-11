@@ -18,7 +18,7 @@ const Home = () => {
 
   return (
     <div className="bg-primary/60 overflow-y-scroll">
-      <div className="w-full h-[100vh] bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
+      <div className="w-full h-[100vh] pb-20 lg:pb-0 xl:pb-0 bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
         <div className="text-center flex flex-col justify-center xl:pt-20 xl:text-left h-max px-4 xl:max-w-[80vw] mx-auto">
           <motion.h1
             variants={fadeIn("down", 0.2)}
