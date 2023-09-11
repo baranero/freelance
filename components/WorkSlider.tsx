@@ -50,6 +50,7 @@ const WorkSlider = () => {
 
   return (
     <Swiper
+
       spaceBetween={10}
       autoHeight= {true}
       pagination={{
@@ -91,7 +92,7 @@ const WorkSlider = () => {
          
                     </div>
                     <div>
-                        <p className="text-justify backdrop-blur-lg bg-gray-500/10 p-6">{image.description}</p>
+                        <p className="text-justify backdrop-blur-lg max-w-[500px] bg-gray-500/10 p-6">{image.description}</p>
                       </div>
                   </div>
                 );

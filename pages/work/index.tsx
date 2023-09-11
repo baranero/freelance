@@ -18,8 +18,8 @@ const Work = () => {
         <Circles />
       </div>
       <div className="container h-full mx-auto mt-10">
-        <div className="flex flex-col xl:flex-row gap-x-8">
-          <div className="text-center flex xl:w-[30vw] flex-col lg:text-left mb-4 xl:mb-0">
+        <div className="flex flex-col xl:flex-row gap-x-4">
+          <div className="text-center flex xl:w-[24vw] flex-col lg:text-left mb-4 xl:mb-0">
             <motion.h2
               variants={fadeIn("up", 0.3)}
               initial="hidden"

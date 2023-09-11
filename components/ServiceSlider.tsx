@@ -50,6 +50,7 @@ const ServiceSlider = () => {
           slidesPerView: 3,
           spaceBetween: 15,
         },
+
       }}
       freeMode={true}
       pagination={{

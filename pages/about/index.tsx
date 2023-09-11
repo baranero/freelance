@@ -87,7 +87,7 @@ const About = () => {
       >
       </motion.div>
       <div className="xl:w-[80vw] mx-auto h-max flex flex-col items-start xl:flex-row  mt-10 gap-x-6">
-        <div className="flex-1 flex flex-col justify-center">
+        <div className="flex-1 flex flex-col mx-auto justify-center">
           <motion.h2
             variants={fadeIn("right", 0.2)}
             initial="hidden"
