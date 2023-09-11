@@ -13,7 +13,7 @@ const Services = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="h-[100vh] bg-primary/30 py-24 lg:flex xl:flex lg:items-center xl:items-center overflow-y-scroll md:overflow-hidden lg:overflow-hidden xl:overflow-hidden">
+    <div className="h-full lg:h-[100vh] xl:h-[100vh] bg-primary/30 py-24 lg:flex xl:flex lg:items-center xl:items-center overflow-y-scroll md:overflow-hidden lg:overflow-hidden xl:overflow-hidden">
       <div className="hidden bottom-0 right-[18px] lg:fixed xl:fixed lg:flex xl:flex">
         <Circles />
       </div>

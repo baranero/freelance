@@ -18,7 +18,7 @@ interface LayoutProps {
 const Layout = ({ children }: LayoutProps) => {
   return (
     <div
-      className={`bg-site page h-[100vh] overflow-y-scroll fixed text-white bg-cover bg-no-repea ${sora.variable} font-sora h-max`}
+      className={`bg-site page overflow-y-scroll fixed text-white bg-cover bg-no-repea ${sora.variable} font-sora`}
     >
       <Nav />
       <Header />

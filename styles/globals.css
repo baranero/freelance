@@ -24,7 +24,7 @@
 
 @layer base {
   html {
-    @apply overflow-x-hidden;
+    
   }
   body {
     @apply bg-secondary leading-relaxed;

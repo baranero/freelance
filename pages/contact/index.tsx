@@ -42,7 +42,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="h-[100vh] bg-primary/30 lg:flex xl:flex lg:items-center xl:items-center overflow-y-scroll lg:overflow-hidden md:overflow-hidden xl:overflow-hidden">
+    <div className="h-full lg:h-[100vh] xl:h-[100vh] bg-primary/30 lg:flex xl:flex lg:items-center xl:items-center overflow-y-scroll lg:overflow-hidden md:overflow-hidden xl:overflow-hidden">
       <div className="container mt-36 mb-28 mx-auto">
         <div className="flex flex-col mx-auto w-full max-w-[700px]">
           <motion.h2
