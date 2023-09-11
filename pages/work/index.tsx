@@ -13,7 +13,7 @@ const Work = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="bg-primary/30 h-full lg:h-[100vh] xl:h-[100vh] pt-24 lg:flex xl:flex justify-center lg:items-center xl:items-center overflow-y-scroll xl:overflow-hidden">
+    <div className="bg-primary/30 h-full lg:h-[100vh] xl:h-[100vh] mb-10 pt-24 lg:flex xl:flex justify-center lg:items-center xl:items-center overflow-y-scroll xl:overflow-hidden">
       <div className="hidden bottom-0 right-[18px] lg:fixed xl:fixed lg:flex xl:flex">
         <Circles />
       </div>
