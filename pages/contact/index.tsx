@@ -63,7 +63,7 @@ const Contact = () => {
               exit="hidden"
               className="flex-1 flex flex-col gap-6 w-full mx-auto"
               onSubmit={handleSubmit}
-              name="contact"
+              name="contacts"
               method="POST"
               data-netlify="true"
             >
