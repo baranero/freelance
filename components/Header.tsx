@@ -19,9 +19,9 @@ const Header = () => {
             />
           </Link>
 
-          <div className="flex items-center justify-between">
+          {/* <div className="flex items-center justify-between">
             <LanguageSwitcher />
-          </div>
+          </div> */}
         </div>
       </div>
     </header>

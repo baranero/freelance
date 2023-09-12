@@ -7,7 +7,7 @@ const workSlides = {
       images: [
         {
           title: "Beauty Salon",
-          path: "/beauty-salon.png",
+          path: "/beauty-salon.webp",
           url: "http://wrobelagnieszka.pl/",
           description: "Strona internetowa stworzona dla salonu kosmetycznego. Responsywna, zoptymalizowana pod SEO. Zmiany podstron następują bez przeładowania całej strony. Oparta na CMS Wordpress."
         },

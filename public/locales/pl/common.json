@@ -1,9 +1,9 @@
 {
     "home": {
-        "welcomeFirst": "Ugaszę każdy ",
-        "welcomeSecond": "pożar ",
-        "welcomeThird": "w kodzie",
-        "description": "Początkujący programista z wielkimi ambicjami. Tworzę strony internetowe i aplikacje webowe."
+        "welcomeFirst": "Strony i sklepy internetowe, ",
+        "welcomeSecond": "aplikacje webowe, które",
+        "welcomeThird": "zarabiają",
+        "description": "Specjalizuję się w tworzeniu nowoczesnych stron internetowych, sklepów online, aplikacji webowych oraz pozycjonowaniu SEO. Moje rozwiązania łączą kreatywność z funkcjonalnością, zapewniając wyjątkowe wrażenia dla Twojej witryny. Moje działania zwiększą widoczność Twojej firmy w sieci."
     },
     "navbar": {
         "home": "strona główna",
@@ -15,11 +15,11 @@
     "about": {
         "titleFirst": " Trochę ",
         "titleSecond": "o mnie",
-        "descriptionFirst": "Rok temu rozpocząłęm naukę programowania. Mój wybór padł na web development.",
-        "descriptionSecond": "Jako podsumowanie moich dotychczasowych umiejętności stworzyłem tą stronę portfolio oraz moją własną aplikację FireApp. Do jej napisania zainspirowała mnie potrzeba digitalizacji niektórych procesów w mojej obecnej pracy.",
-        "descriptionThird": "Wdrażając się bardziej w struktury tworzenia oprogramowania zauważyłem jak ważna jest automatyzacja. Moja uwaga w ostatnim czasie skupiła się na poszerzaniu wiedzy z zakresu CI/CD. Nie przeszedłem również obojętnie obok serwisów chmurowych. Chcąc zbadać ich działanie stworzyłem proste REST API na AWS.",
-        "descriptionFourth": "Moje doświadczenie zawodowe sprawia, że bardzo dobrze dogaduję się ze współpracownikami. Dodatkowo doskonale radzę sobie z dotrzymywaniem terminów, a także prowadzeniem rozmów z inwestorami. Zbierając od nich wymagania wdrażałem je w projekt, aby ostatecznie przekazać klientom gotowy produkt.",
-        "skills": "Umiejętności",
+        "descriptionFirst": "Jestem specjalistą w tworzeniu profesjonalnych i nowoczesnych stron internetowych, sklepów online oraz aplikacji webowych. Mój wachlarz usług obejmuje również skuteczne pozycjonowanie SEO, aby Twoja widoczność w sieci się zwiększyła.",
+        "descriptionSecond": "Dążę do perfekcji poprzez zoptymalizowanie każdego projektu, gwarantując, że Twoja witryna nie tylko prezentuje się doskonale i nowocześnie, ale także działa wyjątkowo sprawnie. Moje rozwiązania są oparte na najnowszych trendach i technologiach, zapewniając Ci przewagę w dzisiejszym dynamicznym świecie online.",
+        "descriptionThird": "To, co naprawdę mnie napędza, to satysfakcja klienta. Tworząc rozwiązania dostosowane do Twoich potrzeb, zawsze dążę do tego, abyś był całkowicie zadowolony z efektów końcowych. Nasza współpraca nie kończy się w momencie ukończenia produktu. Gwarantuję merytoryczne wsparcie w obsłudze oraz pomoc w przypadku problemów.",
+        "descriptionFourth": "Jeśli szukasz profesjonalizmu, nowoczesności, skuteczności i indywidualnego podejścia - skontaktuj się ze mną.",
+        "skills": "Współpraca ze mną",
         "experience": "Doświadczenie",
         "firefighter": "Strażak",
         "fireStage": "2019 - obecnie",
@@ -44,11 +44,11 @@
     },
     "works": {
         "title": "Moje realizacje",
-        "description": "Projekty, które zostały stworzone przeze mnie jako podsumowanie procesu uczenia się."
+        "description": ""
     },
     "worksSlider": {
-        "live": "NA",
-        "project": "ŻYWO"
+        "live": "ZOBACZ",
+        "project": "STRONĘ"
     },
     "contact": {
         "titleFirst": "Skontaktuj się ",

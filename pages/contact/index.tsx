@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { BsArrowRight } from "react-icons/bs";
+import { BsArrowRight, BsFillTelephoneFill } from "react-icons/bs";
+import { AiFillHome, AiOutlineMail } from "react-icons/ai"
 import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
 import { GetStaticProps } from "next";
@@ -42,8 +43,8 @@ const Contact = () => {
   };
 
   return (
-    <div className="h-full lg:h-[100vh] xl:h-[100vh] bg-primary/30 lg:flex xl:flex lg:items-center xl:items-center overflow-y-scroll lg:overflow-hidden md:overflow-hidden xl:overflow-hidden">
-      <div className="container mt-36 mb-28 mx-auto">
+    <div className="h-full mb-24 md:mb-0 lg:mb-0 xl:mb-0 min-h-[100vh] bg-primary/30 flex flex-col lg:items-center xl:items-center overflow-y-scroll lg:overflow-hidden md:overflow-hidden xl:overflow-hidden">
+      <div className="container mt-36 mb-14 mx-auto">
         <div className="flex flex-col mx-auto w-full max-w-[700px]">
           <motion.h2
             variants={fadeIn("up", 0.2)}
@@ -111,6 +112,21 @@ const Contact = () => {
               </button>
             </motion.form>
           </div>
+        </div>
+      </div>
+      <div className="flex flex-col md:flex-row lg:flex-row xl:flex-row items-center justify-center xl:gap-x-40 bg-slate-500/20 xl:px-20 py-4 mx-10 text-center">
+        <div className="p-4">
+          <AiFillHome className="mx-auto mb-4" size={40}/>
+          <p>ul. Tymiankowa 1/47</p>
+          <p>62-800 Kalisz</p>
+        </div>
+        <div className="p-4">
+          <BsFillTelephoneFill className="mx-auto mb-4" size={40}/>
+          <a href="tel:+4879078993">+48 790 782 993</a>
+        </div>
+        <div className="p-4">
+          <AiOutlineMail className="mx-auto mb-4" size={40}/>
+          <a href="mailto:jakub.baran2@gmail.com">jakub.baran2@gmail.com</a>
         </div>
       </div>
     </div>

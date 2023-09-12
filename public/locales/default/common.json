@@ -44,11 +44,11 @@
     },
     "works": {
         "title": "Moje realizacje",
-        "description": "Projekty, które zostały stworzone przeze mnie jako podsumowanie procesu uczenia się."
+        "description": ""
     },
     "worksSlider": {
-        "live": "NA",
-        "project": "ŻYWO"
+        "live": "ZOBACZ",
+        "project": "STRONĘ"
     },
     "contact": {
         "titleFirst": "Skontaktuj się ",

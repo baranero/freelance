@@ -1,59 +1,59 @@
 {
     "home": {
-        "welcomeFirst": "I will put out any",
-        "welcomeSecond": "fire ",
-        "welcomeThird": "in the code",
-        "description": "Beginner programmer with great ambitions."
+        "welcomeFirst": "Websites and online stores, ",
+        "welcomeSecond": "web applications that",
+        "welcomeThird": "they earn",
+        "description": "I specialize in creating modern websites, online stores, web applications and SEO positioning. My solutions combine creativity with functionality, providing a unique experience for your website. My activities will increase the visibility of your company on the Internet."
     },
     "navbar": {
-        "home": "home",
-        "about": "about",
+        "home": "home page",
+        "about": "about me",
         "services": "services",
-        "work": "work",
+        "work": "realizations",
         "contact": "contact"
     },
     "about": {
-        "titleFirst": " A little bit ",
+        "titleFirst": "A little",
         "titleSecond": "about me",
-        "descriptionFirst": "A year ago I started learning programming. I chose web development.",
-        "descriptionSecond": "As a summary of my skills so far, I created this portfolio website and my own FireApp. I was inspired to write it by the need to digitize some processes in my current job.",
-        "descriptionThird": "Getting more involved in the structure of software development, I noticed how important automation is. My attention has recently focused on expanding knowledge in the field of CI/CD. I also did not pass by cloud services indifferently. Wanting to test their operation, I created a simple REST API on AWS.",
-        "descriptionFourth": "My professional experience means that I get along very well with my coworkers. In addition, I am excellent at meeting deadlines, as well as conducting talks with investors. Collecting requirements from them, I implemented them in the project to finally hand over the finished product to customers.",
-        "skills": "Skills",
+        "descriptionFirst": "I am a specialist in creating professional and modern websites, online stores and web applications. My range of services also includes effective SEO positioning to increase your online visibility.",
+        "descriptionSecond": "I strive for perfection by optimizing every design, ensuring that your website not only looks great and modern, but also works exceptionally efficiently. My solutions are based on the latest trends and technologies, giving you an advantage in today's dynamic online world ",
+        "descriptionThird": "What really drives me is customer satisfaction. When creating solutions tailored to your needs, I always strive to ensure that you are completely satisfied with the final results. Our cooperation does not end when the product is completed. I guarantee substantive support in service and help in case of problems.",
+        "descriptionFourth": "If you are looking for professionalism, modernity, effectiveness and an individual approach - contact me.",
+        "skills": "Cooperation with me",
         "experience": "Experience",
         "firefighter": "Firefighter",
         "fireStage": "2019 - present",
-        "designer": "Fire Safety Systems Designer",
+        "designer": "Designer of fire protection systems",
         "designerStage": "2019 - present",
         "github": "My own GitHub",
         "githubStage": "2022 - present"
     },
     "services": {
         "title": "My services",
-        "description": "I create websites and web applications. I guarantee you full responsiveness, friendly interface and optimization for SEO. If you need a website that will attract your customers, get in touch!"
+        "description": "I create websites and web applications. I guarantee you full responsiveness, a friendly interface and SEO optimization. If you need a website that will attract your customers, contact me!"
     },
     "servicesSlider": {
         "design": "Design",
         "designDescription": "Intuitive and stylish interfaces that make your website user-friendly.",
-        "development": "Development",
-        "developmentDescription": "Usable websites and fully functional web applications to meet your requirements.",
+        "development": "Application development",
+        "developmentDescription": "Usable websites and full-featured web applications to meet your needs.",
         "copywriting": "Copywriting",
-        "copywritingDescription": "SEO-friendly content tailored to your needs and requirements.",
+        "copywritingDescription": "SEO-friendly content, tailored to your needs and requirements.",
         "seo": "SEO",
-        "seoDescription": "Improving visibility and organic traffic through strategic optimization and keyword research."
+        "seoDescription": "Improve visibility and organic traffic through strategic optimization and keyword research."
     },
     "works": {
-        "title": "My works",
-        "description": "Projects that were created by me as a summary of the learning process."
+        "title": "My projects",
+        "description": ""
     },
     "worksSlider": {
-        "live": "LIVE",
-        "project": "PROJECT"
+        "live": "SEE",
+        "project": "PAGE"
     },
     "contact": {
-        "titleFirst": "Let's ",
-        "titleSecond": "connect.",
-        "name": "Name",
+        "titleFirst": "Get in touch",
+        "titleSecond": "with me.",
+        "name": "Name and surname",
         "email": "Email",
         "subject": "Subject",
         "message": "Message",
