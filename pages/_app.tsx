@@ -21,12 +21,11 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>
-          Jakub Baran | Strony internetowe, sklepy internetowe, aplikacje
-          webowe, SEO
+        Jakub Baran | Usługi przeciwpożarowe, instrukcja bezpieczeństwa pożarowego, operat ppoż., projekt, uzgodnienie
         </title>
         <meta
           name="description"
-          content="Tworzę responsywne strony internetowe, sklepy internetowe oraz aplikacje webowe. Specjalizuję się również w optymalizacji SEO."
+          content="Inżynieria bezpieczeństwa pożarowego, instrukcje bezpieczeństwa pożarowego, operaty ppoż., audyty, uzgodnienia, systemy sygnalizacji poarowej, dźwiękowe systemy ostrzegawcze, awarayjne oświetlenie ewakuacyjne, systemy oddymiania, oceny zagrożenia przed wybuchem"
         />
       </Head>
       <Layout>

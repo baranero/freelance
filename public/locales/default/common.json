@@ -1,9 +1,9 @@
 {
     "home": {
-        "welcomeFirst": "Strony i sklepy internetowe, ",
-        "welcomeSecond": "aplikacje webowe, które",
-        "welcomeThird": "zarabiają",
-        "description": "Specjalizuję się w tworzeniu nowoczesnych stron internetowych, sklepów online, aplikacji webowych oraz pozycjonowaniu SEO. Moje rozwiązania łączą kreatywność z funkcjonalnością, zapewniając wyjątkowe wrażenia dla Twojej witryny. Moje działania zwiększą widoczność Twojej firmy w sieci."
+        "welcomeFirst": "Projektowanie i doradztwo",
+        "welcomeSecond": "w zakresie",
+        "welcomeThird": "ochrony przeciwpożarowej",
+        "description": "Zapewniam kompleksowe rozwiązania w zakresie projektowania systemów przeciwpożarowych, instrukcji bezpieczeństwa pożarowego, oceny zagrożenia przed wybuchem, operatów oraz audytów przeciwpożarowych. Dzięki mojemu wieloletniemu doświadczeniu i fachowej wiedzy, Twój obiekt będzie zawsze bezpieczny i zgodny z przepisami."
     },
     "navbar": {
         "home": "strona główna",
@@ -13,12 +13,12 @@
         "contact": "kontakt"
     },
     "about": {
-        "titleFirst": " Trochę ",
-        "titleSecond": "o mnie",
-        "descriptionFirst": "Jestem specjalistą w tworzeniu profesjonalnych i nowoczesnych stron internetowych, sklepów online oraz aplikacji webowych. Mój wachlarz usług obejmuje również skuteczne pozycjonowanie SEO, aby Twoja widoczność w sieci się zwiększyła.",
-        "descriptionSecond": "Dążę do perfekcji poprzez zoptymalizowanie każdego projektu, gwarantując, że Twoja witryna nie tylko prezentuje się doskonale i nowocześnie, ale także działa wyjątkowo sprawnie. Moje rozwiązania są oparte na najnowszych trendach i technologiach, zapewniając Ci przewagę w dzisiejszym dynamicznym świecie online.",
-        "descriptionThird": "To, co naprawdę mnie napędza, to satysfakcja klienta. Tworząc rozwiązania dostosowane do Twoich potrzeb, zawsze dążę do tego, abyś był całkowicie zadowolony z efektów końcowych. Nasza współpraca nie kończy się w momencie ukończenia produktu. Gwarantuję merytoryczne wsparcie w obsłudze oraz pomoc w przypadku problemów.",
-        "descriptionFourth": "Jeśli szukasz profesjonalizmu, nowoczesności, skuteczności i indywidualnego podejścia - skontaktuj się ze mną.",
+        "titleFirst": "O ",
+        "titleSecond": "mnie",
+        "descriptionFirst": "Z ochroną przeciwpożarową jestem związany od 2015 roku. W roku 2019 uzyskałem tytuł naukowy i zawodowy inżyniera pożarnictwa kończąc Szkołę Główną Służby Pożarniczej w Warszawie. Podnosząc swoje kwalifikacje w roku 2021 uzyskałem tytuł magistra inżyniera pożarnictwa.",
+        "descriptionSecond": "Jestem czynnym funckjonariuszem Państwowej Straży Pożarnej z prawie 10 letnim stażem. Ochroną przeciwpożarową zajmuję się również na rynku komercyjnym od 2019 roku, pracując jako projektant systemów przeciwpożarowych.",
+        "descriptionThird": "Duże doświadczenie zawodowe daje mi szeroki wachlarz doboru rozwiązań w celu zapewnienia bezpieczeństwa życia i zdrowia ludzkiego oraz mienia w Państwa obiekcie.",
+        "descriptionFourth": "Jeśli szukasz profesjonalizmu, skuteczności i indywidualnego podejścia - skontaktuj się ze mną.",
         "skills": "Współpraca ze mną",
         "experience": "Doświadczenie",
         "firefighter": "Strażak",
@@ -30,20 +30,20 @@
     },
     "services": {
         "title": "Moje usługi",
-        "description": "Tworzę strony internetowe i aplikacje webowe. Gwarantuję Ci pełną responsywność, przyjazny interfejs oraz optymalizację pod SEO. Jeśli potrzebujesz strony internetowej, która przyciągnie Twoich klientów, odezwij się!"
+        "description": ""
     },
     "servicesSlider": {
-        "design": "Design",
-        "designDescription": "Intuicyjne i stylowe interfejsy, które sprawiają, że Twoja strona będzie przyjazna dla użytkownika.",
-        "development": "Rozwój aplikacji",
-        "developmentDescription": "Użytkowe strony i w pełni funkcjonalne aplikacje webowe, aby sprostać Twoim wymaganiom.",
-        "copywriting": "Copywriting",
-        "copywritingDescription": "Treści przyjazne dla SEO, dostosowane do Twoich potrzeb i wymagań.",
-        "seo": "SEO",
-        "seoDescription": "Poprawa widoczności i ruchu organicznego poprzez optymalizację strategiczną i badanie słów kluczowych."
+        "design": "Instrukcja bezpieczeństwa pożarowego",
+        "designDescription": "",
+        "development": "Operat przeciwpożarowy",
+        "developmentDescription": "",
+        "copywriting": "Audyt przeciwpożarowy",
+        "copywritingDescription": "",
+        "seo": "Ocena zagrożenia przed wybuchem",
+        "seoDescription": ""
     },
     "works": {
-        "title": "Moje realizacje",
+        "title": "Realizacje",
         "description": ""
     },
     "worksSlider": {

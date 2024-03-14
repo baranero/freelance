@@ -4,11 +4,10 @@ import { motion } from "framer-motion";
 
 interface CollapsibleProps {
     title: string;
-    children: ReactNode;
     content: string
 }
 
-const Collapsible = ({ title, children, content }: CollapsibleProps) => {
+const Collapsible = ({ title, content }: CollapsibleProps) => {
   const [
     isExpanded,
     setIsExpanded

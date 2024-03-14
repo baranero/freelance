@@ -25,7 +25,7 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h1 z-10 mb-6 mt-36"
+            className="h1 z-10 mb-6 mt-16 text-5xl leading-28"
           >
             {t("home.welcomeFirst")} <br />
             {t("home.welcomeSecond")}<br/>
@@ -40,7 +40,7 @@ const Home = () => {
           >
             {t("home.description")}
           </motion.p>
-          <div className="flex justify-center xl:hidden relative mb-28">
+          <div className="flex justify-center xl:hidden relative">
             <ProjectsBtn />
           </div>
           <motion.div

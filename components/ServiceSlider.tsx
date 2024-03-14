@@ -3,14 +3,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
-import {
-  RxPencil2,
-  RxDesktop,
-  RxReader,
-  RxRocket,
-  RxArrowTopRight,
-} from "react-icons/rx";
+import { RxPencil2, RxDesktop, RxReader, RxRocket, RxArrowTopRight } from "react-icons/rx";
 import { FreeMode, Pagination } from "swiper";
+import { FaFireExtinguisher, FaFire } from "react-icons/fa";
+import { MdFireTruck } from "react-icons/md";
+import { FaExplosion } from "react-icons/fa6";
 import { useTranslation } from "next-i18next";
 
 const ServiceSlider = () => {
@@ -18,22 +15,22 @@ const ServiceSlider = () => {
 
   const serviceData = [
     {
-      icon: <RxPencil2 />,
+      icon: <FaFireExtinguisher />,
       title: t("servicesSlider.design"),
       description: t("servicesSlider.designDescription"),
     },
     {
-      icon: <RxDesktop />,
+      icon: <FaFire />,
       title: t("servicesSlider.development"),
       description: t("servicesSlider.developmentDescription"),
     },
     {
-      icon: <RxReader />,
+      icon: <MdFireTruck />,
       title: t("servicesSlider.copywriting"),
       description: t("servicesSlider.copywritingDescription"),
     },
     {
-      icon: <RxRocket />,
+      icon: <FaExplosion />,
       title: t("servicesSlider.seo"),
       description: t("servicesSlider.seoDescription"),
     },
@@ -50,7 +47,6 @@ const ServiceSlider = () => {
           slidesPerView: 3,
           spaceBetween: 15,
         },
-
       }}
       freeMode={true}
       pagination={{
@@ -66,9 +62,7 @@ const ServiceSlider = () => {
               <div className="text-4xl text-accent mb-4">{item.icon}</div>
               <div className="mb-8">
                 <div className="mb-2 text-lg">{item.title}</div>
-                <p className="msx-w-[350px] leading-normal">
-                  {item.description}
-                </p>
+                <p className="msx-w-[350px] leading-normal">{item.description}</p>
               </div>
               <div>
                 <RxArrowTopRight className="group-hover:rotate-45 group-hover:text-accent transition-all duration-300 mb-20 " />

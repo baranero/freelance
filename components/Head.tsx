@@ -4,7 +4,7 @@ function MyPage() {
   return (
     <div>
       <Head>
-        <title>Jakub Baran | Strony internetowe, sklepy internetowe, aplikacje webowe, SEO</title>
+        <title>Jakub Baran | Usługi przeciwpożarowe, instrukcja bezpieczeństwa pożarowego, operat ppoż., projekt, uzgodnienie</title>
         <meta name="description" content="Opis mojej strony" />
       </Head>
       {/* Treść strony */}
