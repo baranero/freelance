@@ -98,7 +98,7 @@ const WorkSlider = () => {
         clickable: true,
       }}
       modules={[Pagination, Autoplay]}
-      className=""
+      className="h-full"
     >
       {workSlides.slides.map((slide, index) => {
         return (
