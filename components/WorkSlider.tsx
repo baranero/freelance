@@ -88,6 +88,7 @@ const WorkSlider = () => {
 
   return (
     <Swiper
+    
       spaceBetween={10}
       autoHeight={true}
       loop={true}
@@ -103,7 +104,7 @@ const WorkSlider = () => {
       {workSlides.slides.map((slide, index) => {
         return (
           <SwiperSlide key={index}>
-            <div className="grid grid-cols-2 grid-rows-2 gap-4">
+            <div className="grid sm:grid-cols-2 sm:grid-rows-2 gap-4">
               {slide.images.map((image, index) => {
                 return (
                   <div

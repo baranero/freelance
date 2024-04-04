@@ -39,7 +39,7 @@ const Collapsible = ({ title, content }: CollapsibleProps) => {
   const opacity = isExpanded ? 1 : 0
 
   return (
-    <div className="overflow-visible"
+    <div className="overflow-visible px-4"
     >
       <div onClick={handleToggle} className="text-xl hover:cursor-pointer hover:text-white transition-all duration-200 ease-in">
         <h2 className="relative z-20">{title}</h2>

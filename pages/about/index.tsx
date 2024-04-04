@@ -67,7 +67,7 @@ const About = () => {
   ];
 
   return (
-    <div className="bg-primary/30 min-h-screen h-full pt-8 pb-12 lg:flex xl:flex lg:items-center xl:items-center md:overflow-hidden text-center xl:text-left">
+    <div className="bg-primary/30 min-h-screen h-full pt-8 lg:flex xl:flex lg:items-center xl:items-center md:overflow-hidden text-center xl:text-left">
       <div className="hidden bottom-0 right-[18px] lg:fixed xl:fixed lg:flex xl:flex">
         <Circles />
       </div>
@@ -86,7 +86,7 @@ const About = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h2 mb-6 mt-16 text-5xl leading-28"
+            className="h2 mb-6 mt-16 sm:text-5xl leading-28"
           >
             {t("about.titleFirst")}{" "}
             <span className="text-accent mb-6 mt-16 text-5xl leading-28">

@@ -17,7 +17,7 @@ const Services = () => {
       <div className="hidden bottom-0 right-[18px] lg:fixed xl:fixed lg:flex xl:flex">
         <Circles />
       </div>
-      <div className="container mx-auto mt-10">
+      <div className="container mx-auto mt-10 h-[600px]">
         <div className="flex flex-col xl:flex-row gap-x-8">
           <div className="text-center flex xl:w-[30vw] flex-col lg:text-left mb-4 xl:mb-0">
             <motion.h2
