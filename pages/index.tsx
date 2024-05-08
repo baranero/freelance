@@ -25,7 +25,7 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h1 z-10 mb-6 mt-16 text-5xl leading-[3.25rem]"
+            className="h1 z-10 mb-6 mt-20 text-4xl leading-[3.25rem]"
           >
             {t("home.welcomeFirst")} <br />
             {t("home.welcomeSecond")}<br/>
