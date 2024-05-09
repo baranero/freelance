@@ -34,13 +34,13 @@
     },
     "servicesSlider": {
         "design": "Instrukcja bezpieczeństwa pożarowego",
-        "designDescription": "",
+        "designDescription": "Zgodnie z §6 Rozporządzenia Ministra Spraw Wewnętrznych i Administracji w sprawie ochrony przeciwpożarowej budynków, innych obiektów budowlanych i terenów z dnia 21 marca 2023 r. (Dz. U. 2023 poz. 822) Właściciele, zarządcy lub użytkownicy obiektów bądź ich części stanowiących odrębne strefy pożarowe, przeznaczonych do wykonywania funkcji użyteczności publicznej, zamieszkania zbiorowego, produkcyjnych, magazynowych oraz inwentarskich, zapewniają i wdrażają instrukcję bezpieczeństwa pożarowego.",
         "development": "Operat przeciwpożarowy",
-        "developmentDescription": "",
+        "developmentDescription": "Zgodnie z art. 42 ust. 4b Ustawy o odpadach z dnia 10 sierpnia 2023 r. (Dz. U. 2023 poz. 1587) do wniosku o zezwolenie na zbieraniu odpadów oraz do wniosku na przetwarzanie odpadów dołącza się operat przeciwpożarowy, zawierający warunki ochrony przeciwpożarowej instalacji, obiektu lub jego części lub innego miejsca magazynowania odpadów, uzgodnione z komendantem powiatowym (miejskim) Państwowej Straży Pożarnej.",
         "copywriting": "Audyt przeciwpożarowy",
-        "copywritingDescription": "",
+        "copywritingDescription": "Zgodnie z art. 3 ust. 2 Ustawy o ochronie przeciwpożarowej z 20 lutego 2024 r. (Dz. U. 2024 poz. 275) właściciel, zarządca lub użytkownik budynku, obiektu lub terenu ponoszą odpowiedzialność za naruszenie przepisów przeciwpożarowych, w trybie i na zasadach określonych w innych przepisach. ",
         "seo": "Ocena zagrożenia przed wybuchem",
-        "seoDescription": ""
+        "seoDescription": "Zgodnie z §37 Rozporządzenia Ministra Spraw Wewnętrznych i Administracji w sprawie ochrony przeciwpożarowej budynków, innych obiektów budowlanych i terenów z dnia 21 marca 2023 r. (Dz. U. 2023 poz. 822) w obiektach i na terenach przyległych, gdzie są prowadzone procesy technologiczne z użyciem materiałów mogących wytworzyć mieszaniny wybuchowe lub w których materiały takie są magazynowane, dokonuje się oceny zagrożenia wybuchem."
     },
     "works": {
         "title": "Realizacje",

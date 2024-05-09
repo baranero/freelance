@@ -147,7 +147,7 @@ const About = () => {
           exit="hidden"
           className="flex flex-col h-max w-full mt-12 xl:max-w-[48%]"
         >
-          <div className="py-2 xl:py-20 flex flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start pb-20">
+          <div className="py-2 xl:py-20 flex flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start pb-28">
             {aboutData[index].info.map((item, itemIndex) => {
               return (
                 <div
