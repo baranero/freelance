@@ -31,7 +31,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Layout>
         <AnimatePresence mode="wait">
           <motion.div key={router.route} className="">
-            <Transition />
+
 
             <Component {...pageProps} />
           </motion.div>
