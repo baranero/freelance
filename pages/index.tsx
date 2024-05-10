@@ -1,15 +1,10 @@
 import React from "react";
-
 import ParticleContainer from "../components/ParticlesContainer";
 import ProjectsBtn from "../components/ProjectsBtn";
 import AvatarGorilla from "../components/AvatarGorilla";
-
 import { motion } from "framer-motion";
-
 import { fadeIn } from "../variants";
-
 import { GetStaticProps } from "next";
-
 import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
@@ -40,10 +35,13 @@ const Home = () => {
           >
             {t("home.description")}
           </motion.p>
-          <motion.div variants={fadeIn("down", 0.4)}
+          <motion.div
+            variants={fadeIn("down", 0.4)}
             initial="hidden"
             animate="show"
-            exit="hidden" className="flex justify-center xl:hidden relative">
+            exit="hidden"
+            className="flex justify-center xl:hidden relative"
+          >
             <ProjectsBtn />
           </motion.div>
           <motion.div
