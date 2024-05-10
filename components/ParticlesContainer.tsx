@@ -11,7 +11,7 @@ const ParticlesContainer = () => {
 
   return (
     <Particles
-      className=" w-full hidden lg:block xl:block h-full translate-z-0"
+      className="w-full hidden lg:block xl:block h-full translate-z-0"
       id="tsparticles"
       init={particlesInit}
       loaded={partclesLoaded}
@@ -22,26 +22,20 @@ const ParticlesContainer = () => {
             value: "",
           },
         },
-        fps_limit: 120,
+        fps_limit: 60,
         interactivity: {
           events: {
             onClick: {
               enable: false,
-              mode: "push",
             },
             onHover: {
-              enable: true,
-              mode: "repulse",
+              enable: false,
             },
             resize: true,
           },
           modes: {
             push: {
-              quanity: 90,
-            },
-            repulse: {
-              distance: 200,
-              duration: 0.4,
+              quantity: 40,
             },
           },
         },
@@ -57,7 +51,7 @@ const ParticlesContainer = () => {
             width: 1,
           },
           collisions: {
-            enable: true,
+            enable: false,
           },
           move: {
             direction: "none",
@@ -65,16 +59,14 @@ const ParticlesContainer = () => {
             outModes: {
               default: "bounce",
             },
-            random: false,
             speed: 1,
-            straight: false,
           },
           number: {
             density: {
               enable: true,
               area: 800,
             },
-            value: 80,
+            value: 40,
           },
           opacity: {
             value: 0.5,
@@ -86,7 +78,7 @@ const ParticlesContainer = () => {
             value: { min: 1, max: 5 },
           },
         },
-        detectRetina: true,
+        detectRetina: false,
       }}
     />
   );
