@@ -27,7 +27,12 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       await transporter.sendMail(mailOptions);
       res.status(200).json({ message: 'Email sent successfully' });
     } catch (error) {
-      res.status(500).json({ message: 'Failed to send email', error: error.message });
+      if (error instanceof Error) {
+        res.status(500).json({ message: 'Failed to send email', error: error.message });
+      } else {
+        // Jeśli error nie jest instancją Error, obsłuż go w odpowiedni sposób
+        res.status(500).json({ message: 'Failed to send email', error: 'Unknown error occurred' });
+      }
     }
   } else {
     res.status(405).json({ message: 'Method Not Allowed' });
