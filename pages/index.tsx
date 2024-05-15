@@ -13,14 +13,14 @@ const Home = () => {
 
   return (
     <div className="bg-primary/60">
-      <div className="w-full h-full lg:h-[100vh] xl:h-[100vh] lg:pb-0 xl:pb-0 bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
+      <div className="w-full h-full pb-28 xl:pb-0 xl:h-[100vh] bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
         <div className="text-center flex flex-col justify-center pt-10 xl:pt-20 xl:text-left h-max px-4 xl:max-w-[80vw] mx-auto">
           <motion.h1
             variants={fadeIn("down", 0.2)}
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h1 z-10 mb-6 mt-20 text-4xl leading-[3.25rem]"
+            className="h1 z-10 mb-6 mt-10 text-4xl leading-[3.25rem]"
           >
             {t("home.welcomeFirst")} <br />
             {t("home.welcomeSecond")}<br/>

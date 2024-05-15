@@ -67,7 +67,7 @@ const About = () => {
   ];
 
   return (
-    <div className="bg-primary/30 min-h-screen h-full pt-8 lg:flex xl:flex lg:items-center xl:items-center md:overflow-hidden text-center xl:text-left">
+    <div className="bg-primary/30 min-h-screen h-full pt-8 lg:flex xl:flex xl:pb-10 lg:items-center xl:items-center md:overflow-hidden text-center xl:text-left">
       <div className="hidden bottom-0 right-[18px] lg:fixed xl:fixed lg:flex xl:flex">
         <Circles />
       </div>

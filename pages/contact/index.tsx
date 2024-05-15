@@ -21,21 +21,25 @@ const Contact = () => {
     setFormData({ ...formData, [event.target.name]: event.target.value });
   };
 
-  const encode = (data: any) => {
-    return Object.keys(data)
-      .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-      .join("&");
-  };
-
-  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
-    fetch("/contact", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contacts", ...formData }),
-    })
-      .then(() => alert("Message sent!"))
-      .catch((error) => alert(error));
+  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
+
+    try {
+      const response = await fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams(formData).toString(),
+      });
+
+      if (response.ok) {
+        alert("Message sent!");
+        setFormData({ name: "", email: "", subject: "", message: "" });
+      } else {
+        alert("Failed to send message");
+      }
+    } catch (error) {
+      alert("Failed to send message");
+    }
   };
 
   return (
@@ -99,10 +103,11 @@ const Contact = () => {
               exit="hidden"
               className="flex-1 flex flex-col gap-6 w-full mx-auto"
               onSubmit={handleSubmit}
-              name="contacts"
+              name="contact"
               method="POST"
               data-netlify="true"
             >
+              <input type="hidden" name="form-name" value="contact" />
               <div className="flex gap-x-6 w-full">
                 <input
                   type="text"
@@ -111,14 +116,16 @@ const Contact = () => {
                   name="name"
                   value={formData.name}
                   onChange={handleChange}
+                  required
                 />
                 <input
-                  type="text"
+                  type="email"
                   placeholder={t("contact.email")}
                   className="input"
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
+                  required
                 />
               </div>
               <input
@@ -128,6 +135,7 @@ const Contact = () => {
                 name="subject"
                 value={formData.subject}
                 onChange={handleChange}
+                required
               />
               <textarea
                 placeholder={t("contact.message")}
@@ -135,6 +143,7 @@ const Contact = () => {
                 name="message"
                 value={formData.message}
                 onChange={handleChange}
+                required
               ></textarea>
               <button
                 type="submit"

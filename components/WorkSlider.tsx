@@ -95,7 +95,6 @@ const workSlides = {
   ],
 };
 
-
 const WorkSlider = () => {
   const { t } = useTranslation();
 
@@ -108,42 +107,47 @@ const WorkSlider = () => {
         clickable: true,
       }}
       modules={[Pagination]}
-      className="h-full"
+      className=""
       breakpoints={{
         // Na urządzeniach mobilnych wyświetlaj tylko jeden slajd na stronę
         640: {
           slidesPerView: 1,
         },
-        // Na większych urządzeniach wykorzystaj liczbę slajdów zdefiniowaną w danych
+        // Na większych urządzeniach (md, lg, xl) wyświetlaj 2 slajdy na stronę
         768: {
-          slidesPerView: 'auto',
+          slidesPerView: 2,
+        },
+        1024: {
+          slidesPerView: 2,
+        },
+        1280: {
+          slidesPerView: 2,
         },
       }}
     >
       {workSlides.slides.map((slide, index) => {
         return (
-          <SwiperSlide key={index}>
-            <div className="grid sm:grid-cols-2 sm:grid-rows-2 gap-4">
-              {slide.images.map((image, index) => {
+          <SwiperSlide key={index} className="">
+            <div className="grid gap-4">
+              {slide.images.map((image, imageIndex) => {
                 return (
                   <div
-                    key={index}
-                    className="relative rounded-lg overflow-hidden flex flex-col items-center justify-start group "
+                    key={imageIndex}
+                    className="relative rounded-lg overflow-hidden flex flex-col items-center justify-start group"
                   >
                     <div className="flex items-center justify-center relative overflow-hidden group ">
                       <Image
                         src={image.path}
-                        width={500}
-                        height={300}
-                        alt=""
+                        width={800}
+                        height={500}
+                        alt={image.title}
                         className="h-[250px] object-cover"
                       />
-
                       <div className="absolute hover:text-[#b6b6b6] bottom-0 translate-y-full group-hover:-translate-y-16 group-hover:xl:-translate-y-28 group-hover:md:-translate-y-28 group-hover:lg:-translate-y-32  transition-all duration-300"></div>
-                      <div className="absolute hover:text-[#b6b6b6]  bottom-0 translate-y-full group-hover:-translate-y-4 group-hover:lg:-translate-y-20  group-hover:xl:-translate-y-20 group-hover:md:-translate-y-12 transition-all duration-300"></div>
+                      <div className="absolute hover:text-[#b6b6b6] bottom-0 translate-y-full group-hover:-translate-y-4 group-hover:lg:-translate-y-20 group-hover:xl:-translate-y-20 group-hover:md:-translate-y-12 transition-all duration-300"></div>
                     </div>
                     <div>
-                      <p className="text-justify backdrop-blur-lg max-w-[500px] bg-gray-500/10 p-6 pb-10">
+                      <p className="text-justify backdrop-blur-lg bg-gray-500/10 p-6 pb-10 ">
                         {image.description}
                       </p>
                     </div>
