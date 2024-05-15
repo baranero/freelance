@@ -23,14 +23,14 @@ const Contact = () => {
 
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-
+  
     try {
-      const response = await fetch("/", {
+      const response = await fetch("/api/sendEmail", {
         method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: new URLSearchParams(formData).toString(),
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
       });
-
+  
       if (response.ok) {
         alert("Message sent!");
         setFormData({ name: "", email: "", subject: "", message: "" });
