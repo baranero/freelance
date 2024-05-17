@@ -47,6 +47,7 @@ function MyApp({ Component, pageProps }: AppProps) {
             },
           })}
         </script>
+        <html lang="pl" />
       </Head>
       <Layout>
         <AnimatePresence mode="wait">
