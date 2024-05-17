@@ -43,8 +43,9 @@ function MyApp({ Component, pageProps }: AppProps) {
             },
           })}
         </script>
-        <html lang="pl" />
+
       </Head>
+      <html lang="pl" />
       <Layout>
         <AnimatePresence mode="wait">
           <motion.div key={router.route} className="">
