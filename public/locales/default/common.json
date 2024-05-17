@@ -1,9 +1,9 @@
 {
     "home": {
-        "welcomeFirst": "Projektowanie i doradztwo",
-        "welcomeSecond": "w zakresie",
+        "welcomeFirst": "Usługi inżynierii bezpieczeństwa pożarowego w Kaliszu i okolicach",
+        "welcomeSecond": "Zapewniamy kompleksowe rozwiązania w zakresie",
         "welcomeThird": "ochrony przeciwpożarowej",
-        "description": "Zapewniam kompleksowe rozwiązania w zakresie projektowania systemów przeciwpożarowych, instrukcji bezpieczeństwa pożarowego, oceny zagrożenia przed wybuchem, operatów oraz audytów przeciwpożarowych. Dzięki mojemu wieloletniemu doświadczeniu i fachowej wiedzy, Twój obiekt będzie zawsze bezpieczny i zgodny z przepisami."
+        "description": "Oferujemy usługi inżynierii bezpieczeństwa pożarowego w Kaliszu oraz pobliskich miastach, takich jak Ostrów Wielkopolski, Kępno, Jarocin, Koźmin Wielkopolski, Pleszew, Sieradz, Konin, Turek i inne. Nasza oferta obejmuje instrukcje bezpieczeństwa pożarowego, operaty przeciwpożarowe, audyty budynków, projekty systemów sygnalizacji pożarowej, dźwiękowych systemów ostrzegawczych, systemów oddymiania, awaryjnego oświetlenia ewakuacyjnego, wyznaczanie stref zagrożenia wybuchem oraz oceny zagrożenia wybuchem. Dzięki naszemu doświadczeniu i fachowej wiedzy, Twój obiekt będzie zawsze bezpieczny i zgodny z przepisami."
     },
     "navbar": {
         "home": "strona główna",

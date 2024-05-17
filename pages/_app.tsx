@@ -23,11 +23,9 @@ function MyApp({ Component, pageProps }: AppProps) {
         <title>
           Usługi przeciwpożarowe, instrukcja bezpieczeństwa pożarowego, operat ppoż., strefy zagrożenia wybuchem, ocena zagrożenia wybuchem, projekt SSP, DSO, oddymianie, oświetlenie awaryjne
         </title>
-        <meta
-          name="description"
-          content="Oferuję usługi inżynierii bezpieczeństwa pożarowego, w tym instrukcje bezpieczeństwa pożarowego, operaty przeciwpożarowe, audyty budynków, projekty systemów sygnalizacji pożarowej, dźwiękowych systemów ostrzegawczych, systemów oddymiania, awaryjnego oświetlenia ewakuacyjnego, wyznaczanie stref zagrożenia wybuchem oraz oceny zagrożenia wybuchem."
-        />
-        <meta name="keywords" content="inżynieria bezpieczeństwa pożarowego, instrukcja bezpieczeństwa pożarowego, operat ppoż., systemy sygnalizacji pożarowej, dźwiękowe systemy ostrzegawcze, awaryjne oświetlenie ewakuacyjne, systemy oddymiania, oceny zagrożenia przed wybuchem, audyty przeciwpożarowe" />
+        <meta name="description" content="Oferujemy usługi inżynierii bezpieczeństwa pożarowego w Kaliszu oraz pobliskich miastach, takich jak Ostrów Wielkopolski, Kępno, Jarocin, Koźmin Wielkopolski, Pleszew, Sieradz, Konin, Turek i inne. Nasza oferta obejmuje instrukcje bezpieczeństwa pożarowego, operaty przeciwpożarowe, audyty budynków, projekty systemów sygnalizacji pożarowej, dźwiękowych systemów ostrzegawczych, systemów oddymiania, awaryjnego oświetlenia ewakuacyjnego, wyznaczanie stref zagrożenia wybuchem oraz oceny zagrożenia wybuchem." />
+<meta name="keywords" content="inżynieria bezpieczeństwa pożarowego Kalisz, instrukcja bezpieczeństwa pożarowego Kalisz, operat ppoż. Kalisz, systemy sygnalizacji pożarowej Kalisz, dźwiękowe systemy ostrzegawcze Kalisz, awaryjne oświetlenie ewakuacyjne Kalisz, systemy oddymiania Kalisz, oceny zagrożenia przed wybuchem Kalisz, audyty przeciwpożarowe Kalisz, Ostrów Wielkopolski, Kępno, Jarocin, Koźmin Wielkopolski, Pleszew, Sieradz, Konin, Turek"/>
+
         <meta name="author" content="Jakub Baran" />
         <meta property="og:title" content="Usługi przeciwpożarowe, instrukcja bezpieczeństwa pożarowego, operat ppoż., strefy zagrożenia wybuchem, ocena zagrożenia wybuchem, projekt SSP, DSO, oddymianie, oświetlenie awaryjne" />
         <meta property="og:description" content="Oferuję usługi inżynierii bezpieczeństwa pożarowego, w tym instrukcje bezpieczeństwa pożarowego, operaty przeciwpożarowe, audyty budynków, projekty systemów sygnalizacji pożarowej, dźwiękowych systemów ostrzegawczych, systemów oddymiania, awaryjnego oświetlenia ewakuacyjnego, wyznaczanie stref zagrożenia wybuchem oraz oceny zagrożenia wybuchem." />
