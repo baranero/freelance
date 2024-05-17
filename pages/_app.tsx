@@ -27,10 +27,6 @@ function MyApp({ Component, pageProps }: AppProps) {
 <meta name="keywords" content="inżynieria bezpieczeństwa pożarowego Kalisz, instrukcja bezpieczeństwa pożarowego Kalisz, operat ppoż. Kalisz, systemy sygnalizacji pożarowej Kalisz, dźwiękowe systemy ostrzegawcze Kalisz, awaryjne oświetlenie ewakuacyjne Kalisz, systemy oddymiania Kalisz, oceny zagrożenia przed wybuchem Kalisz, audyty przeciwpożarowe Kalisz, Ostrów Wielkopolski, Kępno, Jarocin, Koźmin Wielkopolski, Pleszew, Sieradz, Konin, Turek"/>
 
         <meta name="author" content="Jakub Baran" />
-        <meta property="og:title" content="Usługi przeciwpożarowe, instrukcja bezpieczeństwa pożarowego, operat ppoż., strefy zagrożenia wybuchem, ocena zagrożenia wybuchem, projekt SSP, DSO, oddymianie, oświetlenie awaryjne" />
-        <meta property="og:description" content="Oferuję usługi inżynierii bezpieczeństwa pożarowego, w tym instrukcje bezpieczeństwa pożarowego, operaty przeciwpożarowe, audyty budynków, projekty systemów sygnalizacji pożarowej, dźwiękowych systemów ostrzegawczych, systemów oddymiania, awaryjnego oświetlenia ewakuacyjnego, wyznaczanie stref zagrożenia wybuchem oraz oceny zagrożenia wybuchem." />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://jakubbaran.pl" />
         <link rel="canonical" href="https://jakubbaran.pl" />
         <link rel="icon" href="/favicon.ico" />
         <script type="application/ld+json">
