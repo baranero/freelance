@@ -12,15 +12,15 @@ const Home = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="bg-primary/60">
-      <div className="w-full h-full pb-28 xl:pb-0 xl:h-[100vh] bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
+    <div className="">
+      <div className="w-full h-full pb-28 xl:pb-0 ">
         <div className="text-center flex flex-col justify-center pt-10 xl:pt-20 xl:text-left h-max px-4 xl:max-w-[80vw] mx-auto">
           <motion.h1
             variants={fadeIn("down", 0.2)}
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h1 z-10 mb-6 mt-10 text-4xl leading-[3.25rem]"
+            className="h1 z-10 mb-6 mt-10 text-4xl leading-[3.25rem] xl:max-w-[60%]"
           >
             {t("home.welcomeFirst")} <br />
             {t("home.welcomeSecond")}<br/>
@@ -57,7 +57,7 @@ const Home = () => {
       </div>
       <div className="w-[1200px] h-full fixed right-0 bottom-0">
         <div className="bg-none opacity-10 xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute translate-z-0"></div>
-        <ParticleContainer />
+        {/* <ParticleContainer /> */}
         <motion.div
           variants={fadeIn("up", 0.5)}
           initial="hidden"
