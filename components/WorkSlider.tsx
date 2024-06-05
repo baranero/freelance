@@ -143,11 +143,11 @@ const WorkSlider = () => {
                         alt={image.title}
                         className="h-[250px] object-cover"
                       />
-                      <div className="absolute hover:text-[#b6b6b6] bottom-0 translate-y-full group-hover:-translate-y-16 group-hover:xl:-translate-y-28 group-hover:md:-translate-y-28 group-hover:lg:-translate-y-32  transition-all duration-300"></div>
-                      <div className="absolute hover:text-[#b6b6b6] bottom-0 translate-y-full group-hover:-translate-y-4 group-hover:lg:-translate-y-20 group-hover:xl:-translate-y-20 group-hover:md:-translate-y-12 transition-all duration-300"></div>
+                      <div className="absolute bottom-0 translate-y-full group-hover:-translate-y-16 group-hover:xl:-translate-y-28 group-hover:md:-translate-y-28 group-hover:lg:-translate-y-32  transition-all duration-300"></div>
+                      <div className="absolute  bottom-0 translate-y-full group-hover:-translate-y-4 group-hover:lg:-translate-y-20 group-hover:xl:-translate-y-20 group-hover:md:-translate-y-12 transition-all duration-300"></div>
                     </div>
                     <div>
-                      <p className="text-justify backdrop-blur-lg bg-gray-500/10 p-6 pb-10 ">
+                      <p className="text-justify p-6 pb-10 ">
                         {image.description}
                       </p>
                     </div>

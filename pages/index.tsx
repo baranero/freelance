@@ -7,20 +7,21 @@ import { fadeIn } from "../variants";
 import { GetStaticProps } from "next";
 import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import MasonryGrid from "../components/MasonryGrid";
 
 const Home = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="">
-      <div className="w-full h-full pb-28 xl:pb-0 ">
-        <div className="text-center flex flex-col justify-center pt-10 xl:pt-20 xl:text-left h-max px-4 xl:max-w-[80vw] mx-auto">
+    <div className="flex sm:flex-row flex-col">
+      <div className="w-full">
+        <div className="text-center flex flex-col justify-center xl:text-left h-max px-4 xl:max-w-[80vw] mx-auto">
           <motion.h1
             variants={fadeIn("down", 0.2)}
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h1 z-10 mb-6 mt-10 text-4xl leading-[3.25rem] xl:max-w-[60%]"
+            className="h1 z-10 sm:pr-20 mb-6 text-4xl leading-[3.25rem]"
           >
             {t("home.welcomeFirst")} <br />
             {t("home.welcomeSecond")}<br/>
@@ -31,7 +32,7 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-sm z-10 xl:max-w-xl mx-auto xl:mx-0 mb-6 xl:mb-8 text-center xl:text-justify"
+            className=" z-10 sm:pr-20   mx-auto xl:mx-0 mb-6 xl:mb-8 text-center xl:text-justify"
           >
             {t("home.description")}
           </motion.p>
@@ -55,19 +56,11 @@ const Home = () => {
           </motion.div>
         </div>
       </div>
-      <div className="w-[1200px] h-full fixed right-0 bottom-0">
+      <MasonryGrid/>
+      {/* <div className="w-[1200px] h-full fixed right-0 bottom-0">
         <div className="bg-none opacity-10 xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute translate-z-0"></div>
-        {/* <ParticleContainer /> */}
-        <motion.div
-          variants={fadeIn("up", 0.5)}
-          initial="hidden"
-          animate="show"
-          exit="hidden"
-          transition={{ duration: 1, ease: "easeInOut" }}
-          className="w-full h-full max-w-[660px] max-h-[660px] bottom-40 absolute lg:right-[12%]"
-        >
-        </motion.div>
-      </div>
+
+      </div> */}
     </div>
   );
 };

@@ -17,6 +17,10 @@
 .swiper-rtl .swiper-button-prev:after {
   color: #f13024;
 }
+.swiper-wrapper {
+  height: max-content;
+  position: relative;
+}
 
 .collapsible-content {
   transition: height 0.3s ease-in-out;
@@ -27,7 +31,7 @@
     
   }
   body {
-    @apply bg-slate-900 leading-relaxed;
+    @apply  leading-relaxed;
   }
   .page {
     @apply w-full h-full;
@@ -39,20 +43,55 @@
     @apply text-[35px] leading-tight md:text-[54px] md:leading-[1.3] mb-4 font-semibold;
   }
   p, a {
-    @apply leading-[1.8] text-white/60 font-light;
+    @apply leading-[1.8]  font-light;
   }
   .btn,
   .input {
     @apply h-[52px];
   }
   .input {
-    @apply w-full h-[52px] rounded-lg pl-6 capitalize;
+    @apply w-full h-[52px] rounded-lg pl-6 ;
   }
   .input,
   .textarea {
-    @apply bg-transparent outline-none focus:ring-1 focus:ring-accent border border-white/20 placeholder:text-white/30 placeholder:font-light;
+    @apply bg-transparent outline-none focus:ring-1 focus:ring-accent border   placeholder:font-light;
   }
   .textarea {
-    @apply w-full h-[180px] p-6 capitalize rounded-lg resize-none;
+    @apply w-full h-[180px] p-6  rounded-lg resize-none;
   }
 }
+
+.menu-enter {
+  transform: translateX(100%);
+}
+.menu-enter-active {
+  transform: translateX(0);
+  transition: transform 300ms;
+}
+.menu-exit {
+  transform: translateX(0);
+}
+.menu-exit-active {
+  transform: translateX(100%);
+  transition: transform 300ms;
+}
+.icon-enter {
+  opacity: 0;
+  transform: rotate(-90deg);
+}
+.icon-enter-active {
+  opacity: 1;
+  transform: rotate(0deg);
+  transition: opacity 300ms, transform 300ms;
+}
+.icon-exit {
+  opacity: 1;
+  transform: rotate(0deg);
+}
+.icon-exit-active {
+  opacity: 0;
+  transform: rotate(90deg);
+  transition: opacity 300ms, transform 300ms;
+}
+
+

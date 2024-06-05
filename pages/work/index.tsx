@@ -13,11 +13,9 @@ const Work = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="bg-primary/30 h-full lg:h-[100vh] xl:h-[100vh] pb-10 pt-24 lg:flex xl:flex justify-center lg:items-center xl:items-center overflow-y-scroll xl:overflow-hidden">
-      <div className="hidden bottom-0 right-[18px] lg:fixed xl:fixed lg:flex xl:flex">
-        <Circles />
-      </div>
-      <div className="container h-full mx-auto mt-10">
+    <div className="flex justify-center lg:items-center xl:items-center ">
+
+      <div className="container h-full mx-auto">
         <div className="flex flex-col xl:flex-row gap-x-4">
           <div className="text-center flex xl:w-[24vw] flex-col lg:text-left mb-4 xl:mb-0">
             <motion.h2
@@ -43,9 +41,7 @@ const Work = () => {
           </motion.div>
         </div>
       </div>
-      <div className="hidden bottom-0 left-0 lg:fixed xl:fixed lg:flex xl:flex">
-        <Bulb />
-      </div>
+
     </div>
   );
 };

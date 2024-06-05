@@ -13,11 +13,11 @@ const Services = () => {
   const { t } = useTranslation();
 
   return (
-    <div className=" bg-primary/30 pt-10 xl:h-[100vh] lg:flex xl:flex lg:items-center xl:items-center overflow-y-scroll">
+    <div className="lg:flex xl:flex lg:items-center xl:items-center ">
       <div className="hidden bottom-0 right-[18px] lg:fixed xl:fixed lg:flex xl:flex">
-        <Circles />
+
       </div>
-      <div className="container mx-auto mt-10 h-[600px]">
+      <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row gap-x-8">
           <div className="text-center flex xl:w-[30vw] flex-col lg:text-left mb-4 xl:mb-0">
             <motion.h2
@@ -45,14 +45,11 @@ const Services = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="w-full xl:max-w-[65%] pb-24"
+            className="w-full xl:max-w-[65%]"
           >
             <ServiceSlider />
           </motion.div>
         </div>
-      </div>
-      <div className="hidden bottom-0 left-0 lg:fixed xl:fixed lg:flex xl:flex">
-        <Bulb />
       </div>
     </div>
   );

@@ -43,13 +43,13 @@ const Contact = () => {
   };
 
   return (
-    <div className="h-full mb-24 md:mb-0 lg:mb-0 xl:mb-0 min-h-[100vh] bg-primary/30 flex flex-col lg:items-center xl:items-center overflow-y-scroll lg:overflow-hidden md:overflow-hidden xl:overflow-hidden">
+    <div className="h-full mb-24 md:mb-0 lg:mb-0 xl:mb-0  flex flex-col lg:items-center xl:items-center overflow-y-scroll lg:overflow-hidden md:overflow-hidden xl:overflow-hidden">
       <motion.div
         variants={fadeIn("up", 0.2)}
         initial="hidden"
         animate="show"
         exit="hidden"
-        className="flex flex-col md:flex-row lg:flex-row xl:flex-row items-center justify-center xl:gap-x-40 bg-slate-500/20 mt-36 xl:px-20 py-4 mx-10 text-center"
+        className="flex flex-col md:flex-row lg:flex-row xl:flex-row items-center justify-center xl:gap-x-40 bg-slate-500/20 xl:px-20 py-4 mx-10 text-center"
       >
         <motion.div
           variants={fadeIn("up", 0.2)}
@@ -147,7 +147,7 @@ const Contact = () => {
               ></textarea>
               <button
                 type="submit"
-                className="btn rounded-full border border-white/50 max-w-[170px] px-8 transition-all duration-300 flex items-center justify-center overflow-hidden hover:border-accent group"
+                className="btn rounded-full border  max-w-[170px] px-8 transition-all duration-300 flex items-center justify-center overflow-hidden hover:border-accent group"
               >
                 <span className="group-hover:-translate-y-[120%] group-hover:opacity-0 transition-all duration-500">
                   {t("contact.button")}

@@ -15,7 +15,7 @@ const Profile = () => {
         height={200}
         alt="Profile"
        
-        className="w-full h-full rounded-full opacity-70"
+        className="w-full h-full rounded-full "
       />
     </motion.div>
   );

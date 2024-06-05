@@ -67,9 +67,8 @@ const About = () => {
   ];
 
   return (
-    <div className="bg-primary/30 min-h-screen h-full pt-8 lg:flex xl:flex xl:pb-10 lg:items-center xl:items-center md:overflow-hidden text-center xl:text-left">
+    <div className=" min-h-screen h-full lg:flex xl:flex xl:pb-10 lg:items-center xl:items-center md:overflow-hidden text-center xl:text-left">
       <div className="hidden bottom-0 right-[18px] lg:fixed xl:fixed lg:flex xl:flex">
-        <Circles />
       </div>
       <motion.div
         variants={fadeIn("up", 0.5)}
@@ -86,7 +85,7 @@ const About = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h2 mb-6 mt-16 sm:text-5xl leading-28"
+            className="h2 mb-6 sm:text-5xl leading-28"
           >
             {t("about.titleFirst")}{" "}
             <span className="text-accent mb-6 mt-16 text-5xl leading-28">
@@ -151,7 +150,7 @@ const About = () => {
             {aboutData[index].info.map((item, itemIndex) => {
               return (
                 <div
-                  className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60"
+                  className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center "
                   key={itemIndex}
                 >
                   <Collapsible content={item.icons} title={item.title}></Collapsible>

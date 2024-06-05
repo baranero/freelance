@@ -31,7 +31,7 @@ const Collapsible = ({ title, content }: CollapsibleProps) => {
 
     return (
         <div>
-            <div onClick={handleToggle} className="text-xl px-4 hover:cursor-pointer hover:text-white transition-all duration-200 ease-in">
+            <div onClick={handleToggle} className="text-xl px-4 hover:cursor-pointer transition-all duration-200 ease-in">
                 <h2 className="relative z-20">{title}</h2>
             </div>
             <motion.div

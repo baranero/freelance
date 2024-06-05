@@ -10,6 +10,7 @@ const sora = Sora({
 import Nav from "./Nav";
 import Header from "./Header";
 import TopLeftImg from "./TopLeftImg";
+import Footer from "./Footer";
 
 interface LayoutProps {
   children: ReactNode;
@@ -18,14 +19,15 @@ interface LayoutProps {
 const Layout = ({ children }: LayoutProps) => {
   return (
     <div
-      className={` text-white  ${sora.variable} font-sora`}
+      className={`   ${sora.variable} font-sora`}
     >
-      <Nav />
+      <div className="flex items-center justify-between relative z-20 pt-6 px-4 sm:px-20">
       <Header />
-      <div className="hidden  md:block lg:block xl:block">
-        <TopLeftImg />
+        <Nav />
+
       </div>
-      {children}
+      <div className="sm:px-20 px-4 sm:py-20 py-8">{children}</div>
+      <Footer/>
     </div>
   );
 };
