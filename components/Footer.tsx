@@ -15,7 +15,7 @@ const Footer = () => {
     "
     >
       <Link className="flex flex-col items-center" href={"/"}>
-        <Image src={"/logo.webp"} width={80} height={100} alt="Logo" priority={true} />
+        <Image src={"/logo.jpg"} width={80} height={100} alt="Logo" priority={true} />
         <h1 className="text-2xl text-center">
           Fire Protection <span className="text-accent">Solutions</span>
         </h1>
