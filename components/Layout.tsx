@@ -20,7 +20,7 @@ const Layout = ({ children }: LayoutProps) => {
   return (
     <>
     <Head>
-    <title>FP Solutions - Usługi Inżynierii Bezpieczeństwa Pożarowego</title>
+    <title>Fire Protection Solutions - Usługi Inżynierii Bezpieczeństwa Pożarowego</title>
   </Head>
     <div
       className={`   ${sora.variable} font-sora`}
