@@ -50,7 +50,7 @@ const Footer = () => {
         </ul>
       </div>
       <div>
-        <h3>Pozostańmy w kontakcie</h3>
+        <span>Pozostańmy w kontakcie</span>
         <div className="flex items-center sm:justify-start justify-center gap-x-4 mt-4">
             <AiOutlineMail className="" size={20} />
             <a href="mailto:jakub.baran2@gmail.com">jakub.baran2@gmail.com</a>
@@ -61,7 +61,7 @@ const Footer = () => {
         </div>
       </div>
       <div>
-        <h3>Usługi</h3>
+        <span>Usługi</span>
         <ul className="mt-3">
             <li>
             <Link className="hover:text-accent transition-all duration-300" href={"/services"}>
@@ -141,7 +141,7 @@ const Footer = () => {
         </ul>
       </div>
       <div>
-        <h3>Gdzie działam?</h3>
+        <span>Gdzie działam?</span>
         <ul className="mt-3">
             <li>
             <Link className="hover:text-accent transition-all duration-300" href={"/services"}>
