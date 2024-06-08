@@ -15,13 +15,13 @@ const Home = () => {
   return (
     <div className="flex sm:flex-row flex-col">
       <div className="w-full">
-        <div className="text-center flex flex-col justify-center xl:text-left h-max px-4 xl:max-w-[80vw] mx-auto">
+        <div className="text-center flex flex-col justify-center xl:text-left h-max xl:max-w-[80vw] mx-auto">
           <motion.h1
             variants={fadeIn("down", 0.2)}
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h1 z-10 sm:pr-20 mb-6 text-4xl leading-[3.25rem]"
+            className="h1 z-10 sm:pr-20 mb-6 sm:text-4xl text-3xl leading-[3.25rem]"
           >
             {t("home.welcomeFirst")} <br />
             {t("home.welcomeSecond")}<br/>
