@@ -32,31 +32,20 @@ const Nav = () => {
   return (
     <nav className="w-max">
       <div className="flex justify-between items-center p-4 sm:hidden">
-        <button className="text-2xl md:hidden relative" onClick={handleToggle}>
-          <CSSTransition
-            in={!isOpen}
-            timeout={300}
-            classNames="icon"
-            unmountOnExit
-          >
+        <button
+          className="text-2xl md:hidden relative"
+          onClick={handleToggle}
+          aria-label="Mobile Menu"
+        >
+          <CSSTransition in={!isOpen} timeout={300} classNames="icon" unmountOnExit>
             <IoMenu size={40} className="text-accent z-20" />
           </CSSTransition>
-          <CSSTransition
-            in={isOpen}
-            timeout={300}
-            classNames="icon"
-            unmountOnExit
-          >
+          <CSSTransition in={isOpen} timeout={300} classNames="icon" unmountOnExit>
             <IoClose size={40} className="text-accent fixed z-20 top-10 right-8" />
           </CSSTransition>
         </button>
       </div>
-      <CSSTransition
-        in={isOpen}
-        timeout={300}
-        classNames="menu"
-        unmountOnExit
-      >
+      <CSSTransition in={isOpen} timeout={300} classNames="menu" unmountOnExit>
         <div className={`fixed inset-0 bg-slate-200 z-10 md:hidden`}>
           <div className="flex flex-col items-center pt-20">
             {navData.map((link, index) => (
