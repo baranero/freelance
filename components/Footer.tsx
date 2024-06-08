@@ -1,10 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Socials from "../components/Socials";
-import LanguageSwitcher from "./LanguageSwitcher";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
+import Logo from '../public/Logo.webp'
 
 const Footer = () => {
     const currentYear = new Date().getFullYear();
@@ -15,7 +14,7 @@ const Footer = () => {
     "
     >
       <Link className="flex flex-col items-center" href={"/"}>
-        {/* <Image src={"/logo.jpg"} width={80} height={100} alt="Logo" priority={true} /> */}
+        <Image src={Logo} width={80} height={100} alt="Logo" priority={true} />
         <h1 className="text-2xl text-center">
           Fire Protection <span className="text-accent">Solutions</span>
         </h1>

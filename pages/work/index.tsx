@@ -1,7 +1,5 @@
 import React from "react";
 import WorkSlider from "../../components/WorkSlider";
-import Bulb from "../../components/Bulb";
-import Circles from "../../components/Circles";
 
 import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";

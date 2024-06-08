@@ -9,8 +9,8 @@ const sora = Sora({
 
 import Nav from "./Nav";
 import Header from "./Header";
-import TopLeftImg from "./TopLeftImg";
 import Footer from "./Footer";
+import Head from "next/head";
 
 interface LayoutProps {
   children: ReactNode;
@@ -18,6 +18,10 @@ interface LayoutProps {
 
 const Layout = ({ children }: LayoutProps) => {
   return (
+    <>
+    <Head>
+    <title>FP Solutions - Usługi Inżynierii Bezpieczeństwa Pożarowego</title>
+  </Head>
     <div
       className={`   ${sora.variable} font-sora`}
     >
@@ -29,6 +33,7 @@ const Layout = ({ children }: LayoutProps) => {
       <div className="sm:px-20 px-4 sm:py-20 py-8">{children}</div>
       <Footer/>
     </div>
+    </>
   );
 };
 
