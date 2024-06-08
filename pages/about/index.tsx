@@ -1,16 +1,4 @@
 import React, { useState } from "react";
-import { FaHtml5, FaCss3, FaReact, FaFigma } from "react-icons/fa";
-
-import {
-  SiNextdotjs,
-  SiTypescript,
-  SiRedux,
-  SiPostgresql,
-  SiMongodb,
-  SiNodedotjs,
-  SiAmazonaws,
-  SiPrisma,
-} from "react-icons/si";
 
 type AboutDataItem = {
   title: string;
@@ -20,17 +8,13 @@ type AboutDataItem = {
   }[];
 };
 
-import AvatarRam from "../../components/AvatarRam";
-import Circles from "../../components/Circles";
 
 import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
-import { IconType } from "react-icons/lib";
 import { GetStaticProps } from "next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 import Collapsible from "../../components/Collapsible";
-import Image from "next/image";
 import Profile from "../../components/Profile";
 
 const About = () => {
