@@ -1,7 +1,5 @@
 import React from "react";
-import ParticleContainer from "../components/ParticlesContainer";
 import ProjectsBtn from "../components/ProjectsBtn";
-import AvatarGorilla from "../components/AvatarGorilla";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import { GetStaticProps } from "next";
@@ -57,10 +55,7 @@ const Home = () => {
         </div>
       </div>
       <MasonryGrid/>
-      {/* <div className="w-[1200px] h-full fixed right-0 bottom-0">
-        <div className="bg-none opacity-10 xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute translate-z-0"></div>
 
-      </div> */}
     </div>
   );
 };
