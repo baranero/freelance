@@ -31,8 +31,7 @@ module.exports = {
       },
       backgroundImage: {
         explosion: 'url("/bg.jpg")',
-        circles: 'url("/bg-circles.png")',
-        circleStar: 'url("/circle-star.svg")',
+
         site: 'url("/site-bg.svg")',
       },
       animation: {
