@@ -17,7 +17,7 @@ const Home = () => {
       <div className="w-full">
         <div className="text-center flex flex-col justify-center xl:text-left h-max xl:max-w-[80vw] mx-auto">
           <motion.h1
-            variants={fadeIn("down", 0.2)}
+            variants={fadeIn("down", 0.1)}
             initial="hidden"
             animate="show"
             exit="hidden"
@@ -28,7 +28,7 @@ const Home = () => {
             <span className="text-accent">{t("home.welcomeThird")}</span>
           </motion.h1>
           <motion.p
-            variants={fadeIn("down", 0.3)}
+            variants={fadeIn("down", 0.1)}
             initial="hidden"
             animate="show"
             exit="hidden"
