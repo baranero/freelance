@@ -67,11 +67,11 @@ const ServiceSlider = () => {
             key={index}
             className={`swiper-slide-custom`}
           >
-            <div className={`h-full rounded-lg px-6 pt-6 flex sm:flex-col gap-x-6 sm:gap-x-0 cursor-pointer transition-all duration-300`}>
+            <div className={`h-full rounded-lg group px-6 pt-6 flex sm:flex-col gap-x-6 sm:gap-x-0 cursor-pointer transition-all duration-300`}>
               <div className="text-4xl text-accent mb-4">{item.icon}</div>
               <div className="mb-2 text-lg">{item.title}</div>
               <div>
-                <RxArrowTopRight className="text-accent transition-all duration-300 mb-20" />
+                <RxArrowTopRight className="text-accent group-hover:rotate-45 transition-all duration-300 mb-20" />
               </div>
             </div>
             <div className="pb-10">

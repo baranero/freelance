@@ -12,6 +12,7 @@ const Header = () => {
             <Image className="w-14" src={Logo} width={80} height={100} alt="Logo" />
             <h1 className="sm:text-2xl text-lg">
               Fire Protection <span className="text-accent">Solutions</span>
+              {/* <br />Jakub <span className="text-accent">Baran</span> */}
             </h1>
           </Link>
         </div>

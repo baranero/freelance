@@ -15,16 +15,6 @@ const workSlides = {
     {
       images: [
         {
-          title: "Katedra w Świdnicy",
-          path: "/katedra.webp",
-          description:
-            "System Sygnalizacji Pożarowej SSP zaprojektowany w Katedrze. Katedra jest pod opieką konserwatora zabytków. W obiekcie zastosowano niekonwencjonalne rozwiązania, m. in. czujki zasysające dymu i kamery do detekcji pożaru, zgodnie z ekspertyzą techniczną ze względu na zabytkową wartość.",
-        },
-      ],
-    },
-    {
-      images: [
-        {
           title: "Zakład produkcji lodów KILARGO w Chechle Pierwszym",
           path: "/kilargo.jpg",
           description:
@@ -42,26 +32,7 @@ const workSlides = {
         },
       ],
     },
-    {
-      images: [
-        {
-          title: "Zakład produkcyjny TAMIR w Bystrzycy Kłodzkiej",
-          path: "/tamir.jpg",
-          description:
-            "System Sygnalizacji Pożarowej w zakładzie produkcyjnym. W obiekcie zaprojektowano częściowo radiowe czujki dymu oraz ręczne ostrzegacze pożarowe.",
-        },
-      ],
-    },
-    {
-      images: [
-        {
-          title: "Panattoni Gdańsk",
-          path: "/panattoni.jpg",
-          description:
-            "System Sygnalizacji Pożarowej w hali magazynowej. Projekt aranżacji najmecy w hali magazynowej Panattoni.",
-        },
-      ],
-    },
+    
     {
       images: [
         {
@@ -69,16 +40,6 @@ const workSlides = {
           path: "/acropol.jpg",
           description:
             "System Sygnalizacji Pożarowej w budynku użyteczności publicznej. Projekt dotyczył części biurowej.",
-        },
-      ],
-    },
-    {
-      images: [
-        {
-          title: "Zaleśna",
-          path: "/tartrans.png",
-          description:
-            "Projekt grawitacyjnego systemu oddymiającego klatek schodowych w buydnku socjalno-biurowym.",
         },
       ],
     },
