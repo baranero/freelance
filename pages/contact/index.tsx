@@ -80,7 +80,7 @@ const Contact = () => {
           className="p-4"
         >
           <AiOutlineMail className="mx-auto mb-4" size={40} />
-          <a href="mailto:jakub.baran2@gmail.com">jakub.baran2@gmail.com</a>
+          <a href="mailto:biuro@fp-solutions.pl">biuro@fp-solutions.pl</a>
         </motion.div>
       </motion.div>
       <div className="container mt-12 mb-14 mx-auto">
