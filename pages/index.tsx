@@ -22,9 +22,11 @@ const Home = () => {
             className="h1 z-10 sm:pr-20 mb-6 sm:text-4xl text-3xl leading-[3.25rem]"
           >
             {t("home.welcomeFirst")} <br />
-            {t("home.welcomeSecond")}
-            <br />
-            <span className="text-accent">{t("home.welcomeThird")}</span>
+            <div className="mt-4">
+              {t("home.welcomeSecond")}&nbsp;
+              
+              <span className="text-accent">{t("home.welcomeThird")}</span>
+            </div>
           </motion.h1>
           <motion.p
             variants={fadeIn("down", 0.1)}

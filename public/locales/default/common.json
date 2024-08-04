@@ -1,9 +1,9 @@
 {
     "home": {
-        "welcomeFirst": "Usługi inżynierii bezpieczeństwa pożarowego",
+        "welcomeFirst": "Inżynieria bezpieczeństwa pożarowego",
         "welcomeSecond": "Kompleksowe rozwiązania w zakresie",
         "welcomeThird": "ochrony przeciwpożarowej",
-        "description": "Oferuję usługi inżynierii bezpieczeństwa pożarowego. Moja oferta obejmuje instrukcje bezpieczeństwa pożarowego, operaty przeciwpożarowe, audyty budynków, projekty systemów sygnalizacji pożarowej, dźwiękowych systemów ostrzegawczych, systemów oddymiania, awaryjnego oświetlenia ewakuacyjnego, wyznaczanie stref zagrożenia wybuchem oraz oceny zagrożenia wybuchem. Dzięki mojemu doświadczeniu i fachowej wiedzy, Twój obiekt będzie zawsze bezpieczny."
+        "description": "Oferuję usługi z zakresu ochrony przeciwpożarowej. Moja oferta obejmuje instrukcje bezpieczeństwa pożarowego, operaty przeciwpożarowe, audyty budynków, projekty systemów sygnalizacji pożarowej, dźwiękowych systemów ostrzegawczych, systemów oddymiania, awaryjnego oświetlenia ewakuacyjnego, wyznaczanie stref zagrożenia wybuchem oraz oceny zagrożenia wybuchem. Dzięki mojemu doświadczeniu i fachowej wiedzy, Twój obiekt będzie zawsze bezpieczny."
     },
     "navbar": {
         "home": "Strona Główna",
