@@ -51,7 +51,7 @@ const Contact = () => {
         exit="hidden"
         className="flex flex-col md:flex-row lg:flex-row xl:flex-row items-center justify-center xl:gap-x-40 bg-slate-500/20 xl:px-20 py-4 mx-10 text-center"
       >
-        <motion.div
+        {/* <motion.div
           variants={fadeIn("up", 0.2)}
           initial="hidden"
           animate="show"
@@ -61,7 +61,7 @@ const Contact = () => {
           <AiFillHome className="mx-auto mb-4" size={40} />
           <p>ul. Tymiankowa 1/47</p>
           <p>62-800 Kalisz</p>
-        </motion.div>
+        </motion.div> */}
         <motion.div
           variants={fadeIn("up", 0.2)}
           initial="hidden"
