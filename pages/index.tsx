@@ -22,7 +22,8 @@ const Home = () => {
             className="h1 z-10 sm:pr-20 mb-6 sm:text-4xl text-3xl leading-[3.25rem]"
           >
             {t("home.welcomeFirst")} <br />
-            {t("home.welcomeSecond")}<br/>
+            {t("home.welcomeSecond")}
+            <br />
             <span className="text-accent">{t("home.welcomeThird")}</span>
           </motion.h1>
           <motion.p
@@ -54,8 +55,7 @@ const Home = () => {
           </motion.div>
         </div>
       </div>
-      <MasonryGrid/>
-
+      <MasonryGrid />
     </div>
   );
 };
