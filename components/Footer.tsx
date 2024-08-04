@@ -36,11 +36,11 @@ const Footer = () => {
               Usługi
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link className="hover:text-accent transition-all duration-300" href={"/work"}>
               Realizacje
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link className="hover:text-accent transition-all duration-300" href={"/contact"}>
               Kontakt
@@ -52,7 +52,7 @@ const Footer = () => {
         <span>Pozostańmy w kontakcie</span>
         <div className="flex items-center sm:justify-start justify-center gap-x-4 mt-4">
             <AiOutlineMail className="" size={20} />
-            <a href="mailto:jakub.baran2@gmail.com">jakub.baran2@gmail.com</a>
+            <a href="mailto:biuro@fp-solutions.pl">biuro@fp-solutions.pl</a>
         </div>
         <div className="flex items-center sm:justify-start justify-center gap-x-4 mt-2">
             <BsFillTelephoneFill className="" size={20} />
